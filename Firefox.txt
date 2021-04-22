@@ -21,14 +21,14 @@ Only those you need or want, some settings may be incompatible when used togethe
 
 // General
 
-beacon.enabled                                    -> False
+beacon.enabled                                    -> False     // 
 browser.newtab.preload                            -> False     // Disable preloading newtab
-browser.sessionstore.privacy_level                -> 2
+browser.sessionstore.privacy_level                -> 2         // 
 browser.urlbar.speculativeConnect.enabled         -> False     // Disable URL bar preload
 browser.send_pings                                -> False     // Disable website clicks ping
-browser.sessionstore.max_tabs_undo                -> 0
-browser.formfill.enable                           -> False
-dom.webaudio.enabled                              -> False     // Disable audio api
+browser.sessionstore.max_tabs_undo                -> 0         //
+browser.formfill.enable                           -> False     // *Not Suggested
+dom.webaudio.enabled                              -> False     // Disable audio api *Not Suggested
 dom.gamepad.enabled                               -> False
 dom.gamepad.extensions.enabled                    -> False
 device.sensors.enabled                            -> False     // Disable device sensors
