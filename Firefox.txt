@@ -15,7 +15,7 @@ DNS Leak test:      https://www.dnsleaktest.com/
 Firefox Configuration Page: about:config
 
 I don't suggest you configure all the settings that you see down here on your browser.
-Only those you need/want some settings may be incompatible when used together.
+Only those you need or want, some settings may be incompatible when used together.
 
 %% Latest Version Checked: 90.0a1
 
