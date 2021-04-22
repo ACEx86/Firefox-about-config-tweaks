@@ -1,14 +1,14 @@
 Good Plugins:
-*Not Suggested* https://noscript.net/
-*Not Suggested* https://adblockplus.org/
-*Not Suggested* https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
-*Suggested*     https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/
-*Suggested*     https://addons.mozilla.org/en-US/firefox/addon/font-fingerprint-defender/
+*Not Suggested*   https://noscript.net/
+*Not Suggested*   https://adblockplus.org/
+*Not Suggested*   https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
+*Suggested*       https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/
+*Suggested*       https://addons.mozilla.org/en-US/firefox/addon/font-fingerprint-defender/
 
 Good programs:
-*Suggested*     https://github.com/DNSCrypt/dnscrypt-proxy
+*Suggested*       https://github.com/DNSCrypt/dnscrypt-proxy
 
-Sites to check for leaks:
+Sites to check for leaks on your browser:
 https://browserleaks.com/
 https://www.dnsleaktest.com/
 
