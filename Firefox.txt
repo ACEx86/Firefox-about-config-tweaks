@@ -78,7 +78,7 @@ network.http.referer.spoofSource                  -> True
 plugin.scan.plid.all                              -> False     // Doesn't exist anymore
 places.history.enabled                            -> False
 privacy.firstparty.isolate                        -> True
-privacy.resistFingerprinting                      -> True
+privacy.resistFingerprinting                      -> True      // Don't use with canvas blocker
 services.sync.prefs.sync.browser.formfill.enable  -> False
 services.sync.sendVersionInfo                     -> False
 services.sync.syncedTabs.showRemoteIcons          -> False     // Disable Favicon
