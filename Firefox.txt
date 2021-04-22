@@ -1,4 +1,4 @@
-★★ Good Plugins ★★
+★★  GOOD PLUGINS  ★★
 NOScript                                *Not Suggested*
 https://noscript.net/
 AD Block                                *Not Suggested*
@@ -11,10 +11,10 @@ CSS Exif                                *Suggested*
 https://mzl.la/32GsCoR
 Font Fingerprint Protection             *Suggested*
 https://mzl.la/3eqlK4b
-★★ Good programs ★★
+★★  GOOD PROGRAMS  ★★
 DNSCrypt-Proxy                          *Suggested*
 https://bit.ly/3ayvrfV
-★★ Sites ★★
+★★  SITES  ★★
 Browser Leaks:      https://browserleaks.com/
 DNS Leak test:      https://www.dnsleaktest.com/
 CSS Exfil test:     https://www.mike-gualtieri.com/css-exfil-vulnerability-tester
