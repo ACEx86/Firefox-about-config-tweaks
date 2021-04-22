@@ -1,12 +1,20 @@
 Good Plugins:
-*Not Suggested*     https://noscript.net/
-*Not Suggested*     https://adblockplus.org/
-*Not Suggested*     https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
-*Suggested*         https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/
-*Suggested*         https://addons.mozilla.org/en-US/firefox/addon/font-fingerprint-defender/
+NOScript                                *Not Suggested*
+https://noscript.net/
+AD Block                                *Not Suggested*
+https://adblockplus.org/
+Canvas Blocker                          *Not Suggested*
+https://mzl.la/3dGxZui
+ADBlock                                 *Suggested*         
+https://mzl.la/3dGyHrN
+CSS Exif                                *Suggested*
+https://mzl.la/32GsCoR
+Font Fingerprint Protection             *Suggested*
+https://mzl.la/3eqlK4b
 
 Good programs:
-*Suggested*         https://github.com/DNSCrypt/dnscrypt-proxy
+DNSCrypt-Proxy                          *Suggested*
+https://bit.ly/3ayvrfV
 
 Sites:
 Browser Leaks:      https://browserleaks.com/
