@@ -67,17 +67,17 @@ media.webspeech.synth.enabled                     -> False
 media.gmp-widevinecdm.enabled                     -> False
 network.captive-portal-service.enabled            -> False     // Disable Captive-Portals (airports etc)
 network.dns.disableIPv6                           -> True      // Disable IPV6 on dns
-network.prefetch-next                             -> False
-network.predictor.enabled                         -> False
-network.dns.disablePrefetch                       -> True
-network.IDN_show_punycode                         -> True
+network.prefetch-next                             -> False     // Disable network prefetch next page
+network.predictor.enabled                         -> False     // Disable network predictor
+network.dns.disablePrefetch                       -> True      // Disable DNS prefetch
+network.IDN_show_punycode                         -> True      // Show punny code
 network.http.speculative-parallel-limit           -> 0
-network.http.referer.XOriginPolicy                -> 1
-network.http.referer.trimmingPolicy               -> 1
-network.http.referer.XOriginTrimmingPolicy        -> 1
-network.stricttransportsecurity.preloadlist       -> False
+network.http.referer.XOriginPolicy                -> 1         // Suggested settings so it does not break sites
+network.http.referer.trimmingPolicy               -> 1         // Suggested settings so it does not break sites
+network.http.referer.XOriginTrimmingPolicy        -> 1         // Suggested settings so it does not break sites
 network.http.sendRefererHeader                    -> 0
-network.http.referer.spoofSource                  -> True
+network.http.referer.spoofSource                  -> True      //
+network.stricttransportsecurity.preloadlist       -> False
 plugin.scan.plid.all                              -> False     // Doesn't exist anymore
 places.history.enabled                            -> False
 privacy.firstparty.isolate                        -> True
