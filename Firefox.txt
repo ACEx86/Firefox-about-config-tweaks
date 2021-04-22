@@ -110,8 +110,8 @@ toolkit.telemetry.cachedClientID                  -> Clear     // Remove locally
 // Configure SSL - TLS
 
 security.OCSP.require                             -> True
-security.tls.version.min                          -> 3         // Set the lower version of TLS to 1.2
-security.tls.enable_0rtt_data                     -> False     // Don't use old data - saved data
+security.tls.version.min                          -> 3         // Set the lower version of TLS to 1.2 - Defaulted on latest versions
+security.tls.enable_0rtt_data                     -> False     // Don't use old data - saved data. If this is true it improves latency
 security.tls.enable_post_handshake_auth           -> True
 security.pki.sha1_enforcement_level               -> 1         // Disallow SHA-1
 security.ssl.disable_session_identifiers          -> True      // Doesn't Exist anymore
