@@ -5,6 +5,9 @@ Good Plugins:
 *Suggested*     https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/
 *Suggested*     https://addons.mozilla.org/en-US/firefox/addon/font-fingerprint-defender/
 
+Good programs:
+*Suggested*     https://github.com/DNSCrypt/dnscrypt-proxy
+
 Sites to check for leaks:
 https://browserleaks.com/
 https://www.dnsleaktest.com/
