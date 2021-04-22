@@ -65,7 +65,7 @@ media.eme.enabled                                 -> False
 media.gmp-widevinecdm.enabled                     -> False
 media.webspeech.synth.enabled                     -> False
 media.gmp-widevinecdm.enabled                     -> False
-network.captive-portal-service.enabled            -> False     // Disable Captive-Portals
+network.captive-portal-service.enabled            -> False     // Disable Captive-Portals (airports etc)
 network.dns.disableIPv6                           -> True      // Disable IPV6 on dns
 network.prefetch-next                             -> False
 network.predictor.enabled                         -> False
