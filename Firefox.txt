@@ -141,4 +141,3 @@ security.ssl3.rsa_aes_128_gcm_sha256              -> False     // No PFS - May b
 security.ssl3.rsa_aes_256_gcm_sha384              -> False     // No PFS - May break sites *Not Suggested
 security.ssl3.ecdhe_ecdsa_aes_256_sha             -> False     // SHA
 security.ssl3.ecdhe_ecdsa_aes_128_sha             -> False     // SHA
-//security.ssl3.ecdhe_rsa_aes_128_gcm_sha256      -> False
