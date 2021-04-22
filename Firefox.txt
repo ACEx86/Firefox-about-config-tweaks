@@ -1,0 +1,131 @@
+Good Plugins:
+*Not Suggested* https://noscript.net/
+*Not Suggested* https://adblockplus.org/
+*Not Suggested* https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
+*Suggested*     https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/
+*Suggested*     https://addons.mozilla.org/en-US/firefox/addon/font-fingerprint-defender/
+
+Sites to check for leaks:
+https://browserleaks.com/
+https://www.dnsleaktest.com/
+
+Firefox Configuration Page: about:config
+
+%% Latest Version Checked: 90.0a1
+
+// General
+
+beacon.enabled                                    -> False
+browser.newtab.preload                            -> False     // Disable preloading newtab
+browser.sessionstore.privacy_level                -> 2
+browser.urlbar.speculativeConnect.enabled         -> False     // Disable URL bar preload
+browser.send_pings                                -> False     // Disable website clicks ping
+browser.sessionstore.max_tabs_undo                -> 0
+browser.formfill.enable                           -> False
+dom.webaudio.enabled                              -> False     // Disable audio api
+dom.gamepad.enabled                               -> False
+dom.gamepad.extensions.enabled                    -> False
+device.sensors.enabled                            -> False     // Disable device sensors
+devtools.remote.wifi.scan                         -> False
+extensions.pocket.enabled                         -> False     // Disable the pocket
+extensions.getAddons.cache.enabled                -> False
+extensions.pocket.api                             -> Clear
+extensions.pocket.oAuthConsumerKey                -> Clear
+extensions.blocklist.enabled                      -> False
+gfx.canvas.remote                                 -> False
+geo.enabled                                       -> False
+geo.provider.ms-windows-location                  -> False
+general.useragent.appName
+general.appname.override
+general.appversion.override
+general.platform.override                         -> x32
+general.useragent.override                        -> Mozilla/5.0 (x64, rv:90.0) Gecko/20100101 Firefox/90.0
+general.useragent.vendor
+general.useragent.vendorSub
+** Javascript
+javascript.options.baselinejit                    -> False
+javascript.options.ion                            -> False
+javascript.options.wasm                           -> False
+javascript.options.wasm_baselinejit               -> False
+javascript.options.shared_memory                  -> False
+javascript.options.spectre.jit_to_C++_calls       -> False
+javascript.options.spectre.jit_to_cxx_calls       -> False
+** Javascript
+media.peerconnection.enabled                      -> False     // Disable peerconnetion with servers
+media.peerconnection.turn.disable                 -> True      // Disable peerconnetion with servers
+media.peerconnection.use_document_iceservers      -> False
+media.peerconnection.video.enabled                -> False     // Disable peerconnetion with servers
+media.peerconnection.identity.enabled             -> False
+media.peerconnection.simulcast                    -> False     // Disable peerconnetion with servers
+media.navigator.enabled                           -> False     // Disable device sharing
+media.eme.enabled                                 -> False
+media.gmp-widevinecdm.enabled                     -> False
+media.webspeech.synth.enabled                     -> False
+media.gmp-widevinecdm.enabled                     -> False
+network.captive-portal-service.enabled            -> False     // Disable Captive-Portals
+network.dns.disableIPv6                           -> True      // Disable IPV6 on dns
+network.prefetch-next                             -> False
+network.predictor.enabled                         -> False
+network.dns.disablePrefetch                       -> True
+network.IDN_show_punycode                         -> True
+network.http.speculative-parallel-limit           -> 0
+network.http.referer.XOriginPolicy                -> 1
+network.http.referer.trimmingPolicy               -> 1
+network.http.referer.XOriginTrimmingPolicy        -> 1
+network.stricttransportsecurity.preloadlist       -> False
+network.http.sendRefererHeader                    -> 0
+network.http.referer.spoofSource                  -> True
+plugin.scan.plid.all                              -> False     // Doesn't exist anymore
+places.history.enabled                            -> False
+privacy.firstparty.isolate                        -> True
+privacy.resistFingerprinting                      -> True
+services.sync.prefs.sync.browser.formfill.enable  -> False
+services.sync.sendVersionInfo                     -> False
+services.sync.syncedTabs.showRemoteIcons          -> False     // Disable Favicon
+security.mixed_content.block_display_content      -> True      // Disable Mixed Content
+security.mixed_content.block_object_subrequest    -> True      // Disable Mixed Content
+toolkit.telemetry.enabled                         -> False     // Disable firefox telemetry
+toolkit.telemetry.unified                         -> False     // Disable firefox telemetry
+webgl.disabled                                    -> True      // Disable WEBGL
+webgl.enable-webgl2                               -> False     // Disable WEBGL
+
+// Cache
+
+dom.caches.enabled                                -> False
+dom.quotaManager.loadQuotaFromCache               -> False
+dom.script_loader.bytecode_cache.enabled          -> False
+browser.cache.disk.capacity                       -> 0
+browser.cache.disk.smart_size.enabled             -> False
+browser.cache.disk.enable                         -> False
+browser.cache.memory.enable                       -> False
+browser.cache.disk_cache_ssl                      -> False
+browser.cache.offline.enable                      -> False
+browser.cache.offline.storage.enable              -> False
+gfx.webrender.enable-item-cache                   -> False
+layers.mlgpu.enable-buffer-cache                  -> False
+layout.css.cached-scrollbar-styles.enabled        -> False
+mousewheel.system_settings_cache.enabled          -> False
+toolkit.telemetry.cachedClientID                  -> Clear     // Remove locally cached telemetry ID
+
+// Configure SSL - TLS
+
+security.OCSP.require                             -> True
+security.tls.version.min                          -> 3         // Set the lower version of TLS to 1.2
+security.tls.enable_0rtt_data                     -> False     // Don't use old data - saved data
+security.tls.enable_post_handshake_auth           -> True
+security.pki.sha1_enforcement_level               -> 1         // Disallow SHA-1
+security.ssl.disable_session_identifiers          -> True      // Doesn't Exist anymore
+security.ssl.require_safe_negotiation             -> True      // May break sites
+security.ssl.treat_unsafe_negotiation_as_broken   -> True      // May break sites
+security.ssl3.rsa_aes_128_sha                     -> False     // SHA
+security.ssl3.rsa_aes_256_sha                     -> False     // SHA
+security.ssl3.rsa_des_ede3_sha                    -> False     // SHA
+security.ssl3.dhe_rsa_aes_128_sha                 -> False     // SHA
+security.ssl3.dhe_rsa_aes_256_sha                 -> False     // SHA
+security.ssl3.ecdhe_rsa_aes_128_sha               -> False     // SHA
+security.ssl3.ecdhe_rsa_aes_256_sha               -> False     // SHA
+security.ssl3.rsa_aes_128_gcm_sha256              -> False     // No PFS
+security.ssl3.rsa_aes_256_gcm_sha384              -> False     // No PFS
+security.ssl3.ecdhe_ecdsa_aes_256_sha             -> False     // SHA
+security.ssl3.ecdhe_ecdsa_aes_128_sha             -> False     // SHA
+//security.ssl3.ecdhe_rsa_aes_128_gcm_sha256      -> False
