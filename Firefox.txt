@@ -1,20 +1,20 @@
 Good Plugins:
-*Not Suggested*   https://noscript.net/
-*Not Suggested*   https://adblockplus.org/
-*Not Suggested*   https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
-*Suggested*       https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/
-*Suggested*       https://addons.mozilla.org/en-US/firefox/addon/font-fingerprint-defender/
+*Not Suggested*     https://noscript.net/
+*Not Suggested*     https://adblockplus.org/
+*Not Suggested*     https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
+*Suggested*         https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/
+*Suggested*         https://addons.mozilla.org/en-US/firefox/addon/font-fingerprint-defender/
 
 Good programs:
-*Suggested*       https://github.com/DNSCrypt/dnscrypt-proxy
+*Suggested*         https://github.com/DNSCrypt/dnscrypt-proxy
 
-Sites to check for leaks on your browser:
-https://browserleaks.com/
-https://www.dnsleaktest.com/
+Sites:
+Browser Leaks:      https://browserleaks.com/
+DNS Leak test:      https://www.dnsleaktest.com/
 
 Firefox Configuration Page: about:config
 
-I don't suggest you configure all the settings that you see down on your browser only those you need/want some settings may be incompatible when used together.
+I don't suggest you configure all the settings that you see down here on your browser, only those you need/want some settings may be incompatible when used together.
 
 %% Latest Version Checked: 90.0a1
 
