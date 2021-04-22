@@ -33,7 +33,6 @@ dom.gamepad.extensions.enabled                    -> False
 device.sensors.enabled                            -> False     // Disable device sensors
 devtools.remote.wifi.scan                         -> False
 extensions.pocket.enabled                         -> False     // Disable the pocket
-extensions.getAddons.cache.enabled                -> False
 extensions.pocket.api                             -> Clear
 extensions.pocket.oAuthConsumerKey                -> Clear
 extensions.blocklist.enabled                      -> False
@@ -96,20 +95,21 @@ webgl.enable-webgl2                               -> False     // Disable WEBGL
 
 // Cache
 
-dom.caches.enabled                                -> False
-dom.quotaManager.loadQuotaFromCache               -> False
-dom.script_loader.bytecode_cache.enabled          -> False
-browser.cache.disk.capacity                       -> 0
-browser.cache.disk.smart_size.enabled             -> False
+browser.cache.disk.capacity                       -> 0         // Not Suggested
+browser.cache.disk.smart_size.enabled             -> False     // Not Suggested
 browser.cache.disk.enable                         -> False
-browser.cache.memory.enable                       -> False
+browser.cache.memory.enable                       -> False     // Not Suggested
 browser.cache.disk_cache_ssl                      -> False
 browser.cache.offline.enable                      -> False
 browser.cache.offline.storage.enable              -> False
-gfx.webrender.enable-item-cache                   -> False
-layers.mlgpu.enable-buffer-cache                  -> False
-layout.css.cached-scrollbar-styles.enabled        -> False
-mousewheel.system_settings_cache.enabled          -> False
+dom.caches.enabled                                -> False     // Not Suggested
+dom.quotaManager.loadQuotaFromCache               -> False     // Not Suggested
+dom.script_loader.bytecode_cache.enabled          -> False     // Not Suggested
+extensions.getAddons.cache.enabled                -> False
+gfx.webrender.enable-item-cache                   -> False     // Not Suggested
+layers.mlgpu.enable-buffer-cache                  -> False     // Not Suggested
+layout.css.cached-scrollbar-styles.enabled        -> False     // Not Suggested
+mousewheel.system_settings_cache.enabled          -> False     // Not Suggested
 toolkit.telemetry.cachedClientID                  -> Clear     // Remove locally cached telemetry ID
 
 // Configure SSL - TLS
