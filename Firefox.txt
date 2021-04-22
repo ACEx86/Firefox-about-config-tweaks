@@ -57,11 +57,11 @@ general.useragent.vendorSub
 ** Javascript
 javascript.options.baselinejit                    -> False
 javascript.options.ion                            -> False
-javascript.options.wasm                           -> False
-javascript.options.wasm_baselinejit               -> False
-javascript.options.shared_memory                  -> False
-javascript.options.spectre.jit_to_C++_calls       -> False
-javascript.options.spectre.jit_to_cxx_calls       -> False
+javascript.options.wasm                           -> False     // *Suggested
+javascript.options.wasm_baselinejit               -> False     // *Suggested
+javascript.options.shared_memory                  -> False     // *Suggested
+javascript.options.spectre.jit_to_C++_calls       -> False     // *Suggested
+javascript.options.spectre.jit_to_cxx_calls       -> False     // *Suggested
 ** Javascript
 media.peerconnection.enabled                      -> False     // Disable peerconnetion with servers
 media.peerconnection.turn.disable                 -> True      // Disable peerconnetion with servers
