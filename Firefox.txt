@@ -74,9 +74,9 @@ media.webspeech.synth.enabled                     -> False
 media.gmp-widevinecdm.enabled                     -> False
 network.captive-portal-service.enabled            -> False     // Disable Captive-Portals (airports etc)
 network.dns.disableIPv6                           -> True      // Disable IPV6 on dns
-network.prefetch-next                             -> False     // Disable network prefetch next page
-network.predictor.enabled                         -> False     // Disable network predictor
-network.dns.disablePrefetch                       -> True      // Disable DNS prefetch
+network.prefetch-next                             -> False     // Disable network preload next page
+network.predictor.enabled                         -> False     // Disable network predict next page
+network.dns.disablePrefetch                       -> True      // Disable DNS preload next page *Not Suggested
 network.IDN_show_punycode                         -> True      // Show punny code
 network.http.speculative-parallel-limit           -> 0
 network.http.referer.XOriginPolicy                -> 1         // Suggested settings so it does not break sites
@@ -88,12 +88,12 @@ network.stricttransportsecurity.preloadlist       -> False
 plugin.scan.plid.all                              -> False     // Doesn't exist anymore
 places.history.enabled                            -> False
 privacy.firstparty.isolate                        -> True
-privacy.resistFingerprinting                      -> True      // Don't use with canvas blocker
+privacy.resistFingerprinting                      -> True      // Don't use with canvas blocker * Suggested
 services.sync.prefs.sync.browser.formfill.enable  -> False
 services.sync.sendVersionInfo                     -> False
 services.sync.syncedTabs.showRemoteIcons          -> False     // Disable Favicon
-security.mixed_content.block_display_content      -> True      // Disable Mixed Content
-security.mixed_content.block_object_subrequest    -> True      // Disable Mixed Content
+security.mixed_content.block_display_content      -> True      // Disable Mixed Content *Suggested
+security.mixed_content.block_object_subrequest    -> True      // Disable Mixed Content *Suggested
 toolkit.telemetry.enabled                         -> False     // Disable firefox telemetry
 toolkit.telemetry.unified                         -> False     // Disable firefox telemetry
 webgl.disabled                                    -> True      // Disable WEBGL
