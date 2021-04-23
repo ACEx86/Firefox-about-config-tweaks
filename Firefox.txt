@@ -5,7 +5,7 @@ AD Block                                *Not Suggested*
 https://adblockplus.org/
 Canvas Blocker                          *Not Suggested*
 https://mzl.la/3dGxZui
-ADBlock                                 *Suggested*         
+AD Block                                *Suggested*         
 https://mzl.la/3dGyHrN
 CSS Exif                                *Suggested*
 https://mzl.la/32GsCoR
@@ -28,25 +28,23 @@ Only those you need or want, some settings may be incompatible when used togethe
 
 // General
 
-beacon.enabled                                    -> False     // 
+beacon.enabled                                    -> False     // *Suggested
 browser.newtab.preload                            -> False     // Disable preloading newtab
-browser.sessionstore.privacy_level                -> 2         // 
-browser.urlbar.speculativeConnect.enabled         -> False     // Disable URL bar preload
-browser.send_pings                                -> False     // Disable website clicks ping
-browser.sessionstore.max_tabs_undo                -> 0         //
+browser.sessionstore.privacy_level                -> 2         // Never store extra session data. 1 = Store for unencrypted sites only.
+browser.urlbar.speculativeConnect.enabled         -> False     // Disable URL bar connection and preload
+browser.send_pings                                -> False     // Disable website click ping. Ability to track from where you came
+browser.sessionstore.max_tabs_undo                -> 0         // Disable Menu -> History -> Recently Closed Tabs.
 browser.formfill.enable                           -> False     // *Not Suggested
 dom.webaudio.enabled                              -> False     // Disable audio api *Not Suggested
 dom.gamepad.enabled                               -> False
 dom.gamepad.extensions.enabled                    -> False
-device.sensors.enabled                            -> False     // Disable device sensors
-devtools.remote.wifi.scan                         -> False
+device.sensors.enabled                            -> False     // Disable device sensors *Suggested
+devtools.remote.wifi.scan                         -> False     // *Suggested
 extensions.pocket.enabled                         -> False     // Disable the pocket
-extensions.pocket.api                             -> Clear
-extensions.pocket.oAuthConsumerKey                -> Clear
 extensions.blocklist.enabled                      -> False
 gfx.canvas.remote                                 -> False
-geo.enabled                                       -> False
-geo.provider.ms-windows-location                  -> False
+geo.enabled                                       -> False     // Disables geolocation. *Suggested
+geo.provider.ms-windows-location                  -> False     // Disable Microsoft Provided geolocation. *Suggested
 general.useragent.appName
 general.appname.override
 general.appversion.override
@@ -54,7 +52,7 @@ general.platform.override                         -> x32
 general.useragent.override                        -> Mozilla/5.0 (x64, rv:90.0) Gecko/20100101 Firefox/90.0
 general.useragent.vendor
 general.useragent.vendorSub
-** Javascript
+** Javascript || Changing javascript settings will have negative impact on cpu loads.
 javascript.options.baselinejit                    -> False
 javascript.options.ion                            -> False
 javascript.options.wasm                           -> False     // *Suggested
@@ -114,6 +112,7 @@ dom.caches.enabled                                -> False     // Not Suggested
 dom.quotaManager.loadQuotaFromCache               -> False     // Not Suggested
 dom.script_loader.bytecode_cache.enabled          -> False     // Not Suggested
 extensions.getAddons.cache.enabled                -> False
+extensions.pocket.oAuthConsumerKey                -> Clear
 gfx.webrender.enable-item-cache                   -> False     // Not Suggested
 layers.mlgpu.enable-buffer-cache                  -> False     // Not Suggested
 layout.css.cached-scrollbar-styles.enabled        -> False     // Not Suggested
