@@ -36,20 +36,20 @@ browser.send_pings                                -> False     // Disable websit
 browser.sessionstore.max_tabs_undo                -> 0         // Disable Menu -> History -> Recently Closed Tabs.
 browser.formfill.enable                           -> False     // *Not Suggested
 dom.webaudio.enabled                              -> False     // Disable audio api *Not Suggested
-dom.gamepad.enabled                               -> False
-dom.gamepad.extensions.enabled                    -> False
+dom.gamepad.enabled                               -> False     // *Not Suggested
+dom.gamepad.extensions.enabled                    -> False     // *Not Suggested
 device.sensors.enabled                            -> False     // Disable device sensors *Suggested
 devtools.remote.wifi.scan                         -> False     // *Suggested
 extensions.pocket.enabled                         -> False     // Disable the pocket
 extensions.blocklist.enabled                      -> False
 gfx.canvas.remote                                 -> False
-geo.enabled                                       -> False     // Disables geolocation. *Suggested
+geo.enabled                                       -> False     // Disable geolocation. *Suggested
 geo.provider.ms-windows-location                  -> False     // Disable Microsoft Provided geolocation. *Suggested
 general.useragent.appName
 general.appname.override
 general.appversion.override
-general.platform.override                         -> x32
-general.useragent.override                        -> Mozilla/5.0 (x64, rv:90.0) Gecko/20100101 Firefox/90.0
+general.platform.override                         -> x64
+general.useragent.override                        -> Mozilla/5.0 (Windows NT 10.0; rv:88.0) Gecko/20100101 Firefox/88.0 // *Suggested
 general.useragent.vendor
 general.useragent.vendorSub
 ** Javascript || Changing javascript settings will have negative impact on cpu loads.
