@@ -60,11 +60,14 @@ general.platform.override                         -> x64
 general.useragent.override                        -> Mozilla/5.0 (Windows NT 10.0; rv:88.0) Gecko/20100101 Firefox/88.0 // *Suggested
 general.useragent.vendor
 general.useragent.vendorSub
-** Javascript || Changing javascript settings will have negative impact on cpu loads.
+** Javascript || Changing javascript settings will have negative impact on loads.
+javascript.options.asmjs                          -> False     // *Suggested
+javascript.options.asyncstack                     -> False
 javascript.options.baselinejit                    -> False
 javascript.options.ion                            -> False
 javascript.options.wasm                           -> False     // *Suggested
 javascript.options.wasm_baselinejit               -> False     // *Suggested
+javascript.options.parallel_parsing               -> False     // *Suggested
 javascript.options.shared_memory                  -> False     // *Suggested
 javascript.options.spectre.jit_to_C++_calls       -> False     // *Suggested
 javascript.options.spectre.jit_to_cxx_calls       -> False     // *Suggested
