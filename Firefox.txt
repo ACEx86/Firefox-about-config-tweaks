@@ -80,10 +80,10 @@ network.predictor.enabled                         -> False     // Disable networ
 network.dns.disablePrefetch                       -> True      // Disable DNS preload next page *Not Suggested
 network.IDN_show_punycode                         -> True      // Show punny code
 network.http.speculative-parallel-limit           -> 0
-network.http.referer.XOriginPolicy                -> 1         // Suggested settings so it does not break sites
-network.http.referer.trimmingPolicy               -> 1         // Suggested settings so it does not break sites
-network.http.referer.XOriginTrimmingPolicy        -> 1         // Suggested settings so it does not break sites
-network.http.sendRefererHeader                    -> 1         // Suggested settings so it does not break sites
+network.http.referer.XOriginPolicy                -> 1         // Lower values may break sites *Suggested
+network.http.referer.trimmingPolicy               -> 1         // Lower values may break sites *Suggested
+network.http.referer.XOriginTrimmingPolicy        -> 1         // Lower values may break sites *Suggested
+network.http.sendRefererHeader                    -> 1         // Lower values may break sites *Suggested
 network.http.referer.spoofSource                  -> True      //
 network.stricttransportsecurity.preloadlist       -> False
 plugin.scan.plid.all                              -> False     // Doesn't exist anymore
