@@ -3,10 +3,10 @@ NOScript                                *Not Suggested*
 https://noscript.net/
 AD Block                                *Not Suggested*
 https://adblockplus.org/
-Canvas Blocker                          *Suggested*
-https://mzl.la/3dGxZui
 AD Block                                *Suggested*
 https://mzl.la/3dGyHrN
+Canvas Blocker                          *Suggested*
+https://mzl.la/3dGxZui
 CSS Exif                                *Suggested*
 https://mzl.la/32GsCoR
 Font Fingerprint Protection             *Suggested*
