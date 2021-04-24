@@ -3,9 +3,9 @@ NOScript                                *Not Suggested*
 https://noscript.net/
 AD Block                                *Not Suggested*
 https://adblockplus.org/
-Canvas Blocker                          *Not Suggested*
+Canvas Blocker                          *Suggested*
 https://mzl.la/3dGxZui
-AD Block                                *Suggested*         
+AD Block                                *Suggested*
 https://mzl.la/3dGyHrN
 CSS Exif                                *Suggested*
 https://mzl.la/32GsCoR
