@@ -14,6 +14,14 @@ https://mzl.la/3eqlK4b
 ★★  GOOD PROGRAMS  ★★
 DNSCrypt-Proxy                          *Suggested*
 https://bit.ly/3ayvrfV
+Proton VPN                              *Suggested*
+https://protonvpn.com/
+vyprvpn                                 *Suggested*
+https://www.vyprvpn.com/
+CyberGhost VPN                          *Suggested*
+https://www.cyberghostvpn.com/en_US/
+TunnelBear VPN                          *Suggested*
+https://www.tunnelbear.com/
 ★★  SITES  ★★
 Browser Leaks:      https://browserleaks.com/
 DNS Leak test:      https://www.dnsleaktest.com/
