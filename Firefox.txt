@@ -99,7 +99,8 @@ network.http.referer.spoofSource                  -> True      //
 network.stricttransportsecurity.preloadlist       -> False
 plugin.scan.plid.all                              -> False     // Doesn't exist anymore
 places.history.enabled                            -> False
-privacy.firstparty.isolate                        -> True
+privacy.firstparty.isolate                        -> True      // *Suggested
+privacy.firstparty.isolate.block_post_message     -> True      // *Suggested
 privacy.resistFingerprinting                      -> True      // *Suggested
 services.sync.prefs.sync.browser.formfill.enable  -> False
 services.sync.sendVersionInfo                     -> False
