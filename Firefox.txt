@@ -72,6 +72,7 @@ media.eme.enabled                                 -> False
 media.gmp-widevinecdm.enabled                     -> False
 media.webspeech.synth.enabled                     -> False
 media.gmp-widevinecdm.enabled                     -> False
+media.getusermedia.screensharing.enabled          -> False     // Disable Screen Sharing feature
 network.captive-portal-service.enabled            -> False     // Disable Captive-Portals (airports etc)
 network.dns.disableIPv6                           -> True      // Disable IPV6 on dns
 network.prefetch-next                             -> False     // Disable network preload next page
