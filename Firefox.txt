@@ -82,7 +82,7 @@ network.http.speculative-parallel-limit           -> 0
 network.http.referer.XOriginPolicy                -> 1         // Suggested settings so it does not break sites
 network.http.referer.trimmingPolicy               -> 1         // Suggested settings so it does not break sites
 network.http.referer.XOriginTrimmingPolicy        -> 1         // Suggested settings so it does not break sites
-network.http.sendRefererHeader                    -> 0
+network.http.sendRefererHeader                    -> 1         // Suggested settings so it does not break sites
 network.http.referer.spoofSource                  -> True      //
 network.stricttransportsecurity.preloadlist       -> False
 plugin.scan.plid.all                              -> False     // Doesn't exist anymore
