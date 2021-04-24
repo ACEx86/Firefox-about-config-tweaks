@@ -89,35 +89,35 @@ network.stricttransportsecurity.preloadlist       -> False
 plugin.scan.plid.all                              -> False     // Doesn't exist anymore
 places.history.enabled                            -> False
 privacy.firstparty.isolate                        -> True
-privacy.resistFingerprinting                      -> True      // Don't use with canvas blocker * Suggested
+privacy.resistFingerprinting                      -> True      // *Suggested
 services.sync.prefs.sync.browser.formfill.enable  -> False
 services.sync.sendVersionInfo                     -> False
-services.sync.syncedTabs.showRemoteIcons          -> False     // Disable Favicon
+services.sync.syncedTabs.showRemoteIcons          -> False     // Disable Favicon *Not Suggested
 security.mixed_content.block_display_content      -> True      // Disable Mixed Content *Suggested
 security.mixed_content.block_object_subrequest    -> True      // Disable Mixed Content *Suggested
-toolkit.telemetry.enabled                         -> False     // Disable firefox telemetry
-toolkit.telemetry.unified                         -> False     // Disable firefox telemetry
-webgl.disabled                                    -> True      // Disable WEBGL
-webgl.enable-webgl2                               -> False     // Disable WEBGL
+toolkit.telemetry.enabled                         -> False     // Disable firefox telemetry *Not Suggested
+toolkit.telemetry.unified                         -> False     // Disable firefox telemetry *Not Suggested
+webgl.disabled                                    -> True      // Disable WEBGL *Suggested
+webgl.enable-webgl2                               -> False     // Disable WEBGL *Suggested
 
 // Cache
 
-browser.cache.disk.capacity                       -> 0         // Not Suggested
-browser.cache.disk.smart_size.enabled             -> False     // Not Suggested
-browser.cache.disk.enable                         -> False
-browser.cache.memory.enable                       -> False     // Not Suggested
-browser.cache.disk_cache_ssl                      -> False
-browser.cache.offline.enable                      -> False
-browser.cache.offline.storage.enable              -> False
-dom.caches.enabled                                -> False     // Not Suggested
-dom.quotaManager.loadQuotaFromCache               -> False     // Not Suggested
-dom.script_loader.bytecode_cache.enabled          -> False     // Not Suggested
+browser.cache.disk.capacity                       -> 0         // *Not Suggested
+browser.cache.disk.smart_size.enabled             -> False     // *Not Suggested
+browser.cache.disk.enable                         -> False     // *Not Suggested
+browser.cache.memory.enable                       -> False     // *Not Suggested
+browser.cache.disk_cache_ssl                      -> False     // *Suggested
+browser.cache.offline.enable                      -> False     // *Suggested
+browser.cache.offline.storage.enable              -> False     // *Suggested
+dom.caches.enabled                                -> False     // *Not Suggested
+dom.quotaManager.loadQuotaFromCache               -> False     // *Not Suggested
+dom.script_loader.bytecode_cache.enabled          -> False     // *Not Suggested
 extensions.getAddons.cache.enabled                -> False
 extensions.pocket.oAuthConsumerKey                -> Clear
-gfx.webrender.enable-item-cache                   -> False     // Not Suggested
-layers.mlgpu.enable-buffer-cache                  -> False     // Not Suggested
-layout.css.cached-scrollbar-styles.enabled        -> False     // Not Suggested
-mousewheel.system_settings_cache.enabled          -> False     // Not Suggested
+gfx.webrender.enable-item-cache                   -> False     // *Not Suggested
+layers.mlgpu.enable-buffer-cache                  -> False     // *Not Suggested
+layout.css.cached-scrollbar-styles.enabled        -> False     // *Not Suggested
+mousewheel.system_settings_cache.enabled          -> False     // *Not Suggested
 toolkit.telemetry.cachedClientID                  -> Clear     // Remove locally cached telemetry ID
 
 // Configure SSL - TLS
