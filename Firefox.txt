@@ -36,6 +36,7 @@ Only those you need or want, some settings may be incompatible when used togethe
 
 // General
 
+app.normandy.enable                               -> False     // 
 beacon.enabled                                    -> False     // *Suggested
 browser.newtab.preload                            -> False     // Disable preloading newtab
 browser.sessionstore.privacy_level                -> 2         // Never store extra session data. 1 = Store for unencrypted sites only.
@@ -84,13 +85,14 @@ media.gmp-widevinecdm.enabled                     -> False
 media.webspeech.synth.enabled                     -> False
 media.gmp-widevinecdm.enabled                     -> False
 media.getusermedia.screensharing.enabled          -> False     // Disable Screen Sharing feature
+messaging-system.rsexperimentloader.enabled       -> False     // Disable new feature experiments
 network.captive-portal-service.enabled            -> False     // Disable Captive-Portals (airports etc)
 network.dns.disableIPv6                           -> True      // Disable IPV6 on dns
 network.prefetch-next                             -> False     // Disable network preload next page
 network.predictor.enabled                         -> False     // Disable network predict next page
 network.dns.disablePrefetch                       -> True      // Disable DNS preload next page *Not Suggested
 network.IDN_show_punycode                         -> True      // Show punny code
-network.http.speculative-parallel-limit           -> 0
+network.http.speculative-parallel-limit           -> 0         // Disable predictive connections
 network.http.referer.XOriginPolicy                -> 1         // Lower values may break sites *Suggested
 network.http.referer.trimmingPolicy               -> 1         // Lower values may break sites *Suggested
 network.http.referer.XOriginTrimmingPolicy        -> 1         // Lower values may break sites *Suggested
@@ -124,7 +126,7 @@ browser.cache.offline.storage.enable              -> False     // *Suggested
 dom.caches.enabled                                -> False     // *Not Suggested
 dom.quotaManager.loadQuotaFromCache               -> False     // *Not Suggested
 dom.script_loader.bytecode_cache.enabled          -> False     // *Not Suggested
-extensions.getAddons.cache.enabled                -> False
+extensions.getAddons.cache.enabled                -> False     // Disable personalized recommendations in Get Add-ons *Suggested
 extensions.pocket.oAuthConsumerKey                -> Clear
 gfx.webrender.enable-item-cache                   -> False     // *Not Suggested
 layers.mlgpu.enable-buffer-cache                  -> False     // *Not Suggested
