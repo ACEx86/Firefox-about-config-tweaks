@@ -50,22 +50,22 @@ dom.gamepad.extensions.enabled                    -> False     // *Not Suggested
 device.sensors.enabled                            -> False     // Disable device sensors *Suggested
 devtools.remote.wifi.scan                         -> False     // *Suggested
 extensions.pocket.enabled                         -> False     // Disable the pocket
-extensions.blocklist.enabled                      -> False
-gfx.canvas.remote                                 -> False
+extensions.blocklist.enabled                      -> False     //
+gfx.canvas.remote                                 -> False     //
 geo.enabled                                       -> False     // Disable geolocation. *Suggested
 geo.provider.ms-windows-location                  -> False     // Disable Microsoft Provided geolocation. *Suggested
-general.useragent.appName
-general.appname.override
-general.appversion.override
+general.useragent.appName                                      //
+general.appname.override                                       //
+general.appversion.override                                    //
 general.platform.override                         -> x64
 general.useragent.override                        -> Mozilla/5.0 (Windows NT 10.0; rv:88.0) Gecko/20100101 Firefox/88.0 // *Suggested
-general.useragent.vendor
-general.useragent.vendorSub
+general.useragent.vendor                                       //
+general.useragent.vendorSub                                    //
 ** Javascript || Changing javascript settings will have negative impact on loads.
 javascript.options.asmjs                          -> False     // *Suggested
-javascript.options.asyncstack                     -> False
-javascript.options.baselinejit                    -> False
-javascript.options.ion                            -> False
+javascript.options.asyncstack                     -> False     //
+javascript.options.baselinejit                    -> False     //
+javascript.options.ion                            -> False     //
 javascript.options.wasm                           -> False     // *Suggested
 javascript.options.wasm_baselinejit               -> False     // *Suggested
 javascript.options.parallel_parsing               -> False     // *Suggested
@@ -75,15 +75,15 @@ javascript.options.spectre.jit_to_cxx_calls       -> False     // *Suggested
 ** Javascript
 media.peerconnection.enabled                      -> False     // Disable peerconnetion with servers
 media.peerconnection.turn.disable                 -> True      // Disable peerconnetion with servers
-media.peerconnection.use_document_iceservers      -> False
+media.peerconnection.use_document_iceservers      -> False     //
 media.peerconnection.video.enabled                -> False     // Disable peerconnetion with servers
-media.peerconnection.identity.enabled             -> False
+media.peerconnection.identity.enabled             -> False     //
 media.peerconnection.simulcast                    -> False     // Disable peerconnetion with servers
 media.navigator.enabled                           -> False     // Disable device sharing
-media.eme.enabled                                 -> False
-media.gmp-widevinecdm.enabled                     -> False
-media.webspeech.synth.enabled                     -> False
-media.gmp-widevinecdm.enabled                     -> False
+media.eme.enabled                                 -> False     //
+media.gmp-widevinecdm.enabled                     -> False     //
+media.webspeech.synth.enabled                     -> False     //
+media.gmp-widevinecdm.enabled                     -> False     //
 media.getusermedia.screensharing.enabled          -> False     // Disable Screen Sharing feature
 messaging-system.rsexperimentloader.enabled       -> False     // Disable new feature experiments
 network.captive-portal-service.enabled            -> False     // Disable Captive-Portals (airports etc)
@@ -98,14 +98,14 @@ network.http.referer.trimmingPolicy               -> 1         // Lower values m
 network.http.referer.XOriginTrimmingPolicy        -> 1         // Lower values may break sites *Suggested
 network.http.sendRefererHeader                    -> 1         // Lower values may break sites *Suggested
 network.http.referer.spoofSource                  -> True      //
-network.stricttransportsecurity.preloadlist       -> False
+network.stricttransportsecurity.preloadlist       -> False     //
 plugin.scan.plid.all                              -> False     // Doesn't exist anymore
-places.history.enabled                            -> False
+places.history.enabled                            -> False     //
 privacy.firstparty.isolate                        -> True      // *Suggested
 privacy.firstparty.isolate.block_post_message     -> True      // *Suggested
 privacy.resistFingerprinting                      -> True      // *Suggested
-services.sync.prefs.sync.browser.formfill.enable  -> False
-services.sync.sendVersionInfo                     -> False
+services.sync.prefs.sync.browser.formfill.enable  -> False     //
+services.sync.sendVersionInfo                     -> False     //
 services.sync.syncedTabs.showRemoteIcons          -> False     // Disable Favicon *Not Suggested
 security.mixed_content.block_display_content      -> True      // Disable Mixed Content *Suggested
 security.mixed_content.block_object_subrequest    -> True      // Disable Mixed Content *Suggested
@@ -126,7 +126,7 @@ browser.cache.offline.storage.enable              -> False     // *Suggested
 dom.caches.enabled                                -> False     // *Not Suggested
 dom.quotaManager.loadQuotaFromCache               -> False     // *Not Suggested
 dom.script_loader.bytecode_cache.enabled          -> False     // *Not Suggested
-extensions.getAddons.cache.enabled                -> False     // Disable personalized recommendations in Get Add-ons *Suggested
+extensions.getAddons.cache.enabled                -> False     // Disable personalized recommendations *Suggested
 extensions.pocket.oAuthConsumerKey                -> Clear
 gfx.webrender.enable-item-cache                   -> False     // *Not Suggested
 layers.mlgpu.enable-buffer-cache                  -> False     // *Not Suggested
