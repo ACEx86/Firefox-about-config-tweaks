@@ -82,7 +82,7 @@ media.peerconnection.simulcast                    -> False     // Disable peerco
 media.navigator.enabled                           -> False     // Disable device sharing
 media.eme.enabled                                 -> False     //
 media.gmp-widevinecdm.enabled                     -> False     //
-media.webspeech.synth.enabled                     -> False     //
+media.webspeech.synth.enabled                     -> False     // Disable SpeechSynthesis API
 media.gmp-widevinecdm.enabled                     -> False     //
 media.getusermedia.screensharing.enabled          -> False     // Disable Screen Sharing feature
 messaging-system.rsexperimentloader.enabled       -> False     // Disable new feature experiments
