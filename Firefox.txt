@@ -86,7 +86,8 @@ media.webspeech.synth.enabled                     -> False     //
 media.gmp-widevinecdm.enabled                     -> False     //
 media.getusermedia.screensharing.enabled          -> False     // Disable Screen Sharing feature
 messaging-system.rsexperimentloader.enabled       -> False     // Disable new feature experiments
-network.captive-portal-service.enabled            -> False     // Disable Captive-Portals (airports etc)
+network.captive-portal-service.enabled            -> False     // Disable connections to mozilla
+network.connectivity-service.enabled              -> False     // Disable connections to mozilla
 network.dns.disableIPv6                           -> True      // Disable IPV6 on dns
 network.prefetch-next                             -> False     // Disable network preload next page
 network.predictor.enabled                         -> False     // Disable network predict next page
