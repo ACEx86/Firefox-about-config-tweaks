@@ -32,7 +32,7 @@ Firefox Configuration Page: about:config
 I don't suggest you configure all the settings that you see down here on your browser.
 Only those you need or want, some settings may be incompatible when used together.
 
-%% Latest Version Checked: 90.0a1
+%% Latest Version Checked: 91.0a1
 
 // General
 
