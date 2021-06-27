@@ -34,6 +34,7 @@ DNS Test:           https://www.cloudflare.com/ssl/encrypted-sni/
 CSS Exfil test:     https://www.mike-gualtieri.com/css-exfil-vulnerability-tester
 
 ★ ★ Firefox Pages ★ ★
+
 about:about
 about:buildconfig
 about:cache
