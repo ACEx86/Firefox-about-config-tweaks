@@ -157,8 +157,11 @@ layout.css.cached-scrollbar-styles.enabled        -> False     //
 mousewheel.system_settings_cache.enabled          -> False     //
 toolkit.telemetry.cachedClientID                  -> Clear     // Remove locally cached telemetry ID
 
-// Configure SSL - TLS \\
+// SSL - TLS - DNS \\
 
+network.dns.echconfig.enabled                     -> True      // Hide hostname if available
+network.dns.use_https_rr_as_altsvc                -> True      // Hide hostname if available
+network.trr.mode                                  -> 3         // 3 only use DoH, 2 use DoH but falls back to native, 0 disable DoH
 security.OCSP.require                             -> True
 security.tls.version.min                          -> 3         // Set the lower version of TLS to 1.2
 security.tls.enable_0rtt_data                     -> False     // Don't use old data - saved data. If this is true it improves latency
