@@ -1,4 +1,5 @@
 ★ ★  GOOD PLUGINS  ★ ★
+
 NOScript
 https://noscript.net/
 AD Block
@@ -11,7 +12,9 @@ CSS Exif ♠
 https://mzl.la/32GsCoR
 Font Fingerprint Protection ♠
 https://mzl.la/3eqlK4b
+
 ★ ★  GOOD PROGRAMS  ★ ★
+
 DNSCrypt-Proxy ♠
 https://bit.ly/3ayvrfV
 Proton VPN ♠
@@ -29,11 +32,12 @@ Browser Leaks:      https://browserleaks.com/
 DNS Leak test:      https://www.dnsleaktest.com/
 DNS Test:           https://www.cloudflare.com/ssl/encrypted-sni/
 CSS Exfil test:     https://www.mike-gualtieri.com/css-exfil-vulnerability-tester
-★ ★ ★ ★ ★ ★ ★ ★
+
 ★ ★ Firefox Pages ★ ★
 about:about
 about:buildconfig
 about:cache
+about:config
 about:debugging
 about:home
 about:license
@@ -45,15 +49,15 @@ about:serviceworkers
 about:telemetry
 about:url-classifier
 about:webrtc
-★ ★ ★ ★ ★ ★ ★ ★
-Firefox Configuration Page: about:config
+
+Firefox Configuration Page >> about:config
+
+LATEST VERSION CHECKED >> 91.0a1
 
 I don't suggest you configure all the settings that you see down here on your browser.
 Only those you need or want, some settings may cause trouble when used together.
 
-%% Latest Version Checked: 91.0a1
-
-// General
+// GENERAL \\
 
 app.normandy.enable                               -> False     // 
 beacon.enabled                                    -> False     // *Suggested
@@ -134,7 +138,7 @@ toolkit.telemetry.unified                         -> False     // Disable firefo
 webgl.disabled                                    -> True      // Disable WEBGL *Suggested
 webgl.enable-webgl2                               -> False     // Disable WEBGL *Suggested
 
-// Cache
+// CACHE \\
 
 browser.cache.disk.capacity                       -> 0         // *Not Suggested
 browser.cache.disk.smart_size.enabled             -> False     // *Not Suggested
@@ -154,7 +158,7 @@ layout.css.cached-scrollbar-styles.enabled        -> False     // *Not Suggested
 mousewheel.system_settings_cache.enabled          -> False     // *Not Suggested
 toolkit.telemetry.cachedClientID                  -> Clear     // Remove locally cached telemetry ID
 
-// Configure SSL - TLS
+// Configure SSL - TLS \\
 
 security.OCSP.require                             -> True
 security.tls.version.min                          -> 3         // Set the lower version of TLS to 1.2
