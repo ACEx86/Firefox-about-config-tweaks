@@ -60,42 +60,41 @@ Only those you need or want, some settings may cause trouble when used together.
 // GENERAL \\
 
 app.normandy.enable                               -> False     // 
-beacon.enabled                                    -> False     // *Suggested
+beacon.enabled                                    -> False     //
 browser.newtab.preload                            -> False     // Disable preloading newtab
 browser.sessionstore.privacy_level                -> 2         // Never store extra session data. 1 = Store for unencrypted sites only.
 browser.urlbar.speculativeConnect.enabled         -> False     // Disable URL bar connection and preload
 browser.send_pings                                -> False     // Disable website click ping. Ability to track from where you came
 browser.sessionstore.max_tabs_undo                -> 0         // Disable Menu -> History -> Recently Closed Tabs.
-browser.formfill.enable                           -> False     // *Not Suggested
-dom.webaudio.enabled                              -> False     // Disable audio api *Not Suggested
-dom.gamepad.enabled                               -> False     // *Not Suggested
-dom.gamepad.extensions.enabled                    -> False     // *Not Suggested
-device.sensors.enabled                            -> False     // Disable device sensors *Suggested
-devtools.remote.wifi.scan                         -> False     // *Suggested
+browser.formfill.enable                           -> False     //
+dom.webaudio.enabled                              -> False     // Disable audio api
+dom.gamepad.enabled                               -> False     //
+dom.gamepad.extensions.enabled                    -> False     //
+device.sensors.enabled                            -> False     // Disable device sensors
+devtools.remote.wifi.scan                         -> False     //
 extensions.pocket.enabled                         -> False     // Disable the pocket
 extensions.blocklist.enabled                      -> False     //
 gfx.canvas.remote                                 -> False     //
-geo.enabled                                       -> False     // Disable geolocation. *Suggested
-geo.provider.ms-windows-location                  -> False     // Disable Microsoft Provided geolocation. *Suggested
+geo.enabled                                       -> False     // Disable geolocation.
+geo.provider.ms-windows-location                  -> False     // Disable Microsoft Provided geolocation.
 general.useragent.appName                                      //
 general.appname.override                                       //
 general.appversion.override                                    //
 general.platform.override                         -> x64
-general.useragent.override                        -> Mozilla/5.0 (Windows NT 10.0; rv:88.0) Gecko/20100101 Firefox/88.0 // *Suggested
+general.useragent.override                        -> Mozilla/5.0 (Windows NT 10.0; rv:88.0) Gecko/20100101 Firefox/88.0
 general.useragent.vendor                                       //
 general.useragent.vendorSub                                    //
 ** Javascript
-javascript.options.asmjs                          -> False     // *Suggested
+javascript.options.asmjs                          -> False     //
 javascript.options.asyncstack                     -> False     //
 javascript.options.baselinejit                    -> False     //
 javascript.options.ion                            -> False     //
-javascript.options.wasm                           -> False     // *Suggested
-javascript.options.wasm_baselinejit               -> False     // *Suggested
-javascript.options.parallel_parsing               -> False     // *Suggested
-javascript.options.shared_memory                  -> False     // *Suggested
-javascript.options.spectre.jit_to_C++_calls       -> False     // *Suggested
-javascript.options.spectre.jit_to_cxx_calls       -> False     // *Suggested
-pdfjs.enableScripting                             -> False     // *Suggested Disable javascript on PDF
+javascript.options.wasm                           -> False     //
+javascript.options.wasm_baselinejit               -> False     //
+javascript.options.parallel_parsing               -> False     //
+javascript.options.shared_memory                  -> False     //
+javascript.options.spectre.jit_to_cxx_calls       -> False     //
+pdfjs.enableScripting                             -> False     // Disable javascript on PDF
 ** Javascript
 media.peerconnection.enabled                      -> False     // Disable peerconnetion with servers
 media.peerconnection.turn.disable                 -> True      // Disable peerconnetion with servers
@@ -115,47 +114,47 @@ network.connectivity-service.enabled              -> False     // Disable connec
 network.dns.disableIPv6                           -> True      // Disable IPV6 on dns
 network.prefetch-next                             -> False     // Disable network preload next page
 network.predictor.enabled                         -> False     // Disable network predict next page
-network.dns.disablePrefetch                       -> True      // Disable DNS preload next page *Not Suggested
+network.dns.disablePrefetch                       -> True      // Disable DNS preload next page
 network.IDN_show_punycode                         -> True      // Show punny code
 network.http.speculative-parallel-limit           -> 0         // Disable predictive connections
-network.http.referer.XOriginPolicy                -> 1         // Lower values may break sites *Suggested
-network.http.referer.trimmingPolicy               -> 1         // Lower values may break sites *Suggested
-network.http.referer.XOriginTrimmingPolicy        -> 1         // Lower values may break sites *Suggested
-network.http.sendRefererHeader                    -> 1         // Lower values may break sites *Suggested
+network.http.referer.XOriginPolicy                -> 1         // Lower values may break sites
+network.http.referer.trimmingPolicy               -> 1         // Lower values may break sites
+network.http.referer.XOriginTrimmingPolicy        -> 1         // Lower values may break sites
+network.http.sendRefererHeader                    -> 1         // Lower values may break sites
 network.http.referer.spoofSource                  -> True      //
 network.stricttransportsecurity.preloadlist       -> False     //
 places.history.enabled                            -> False     //
-privacy.firstparty.isolate                        -> True      // *Suggested
-privacy.firstparty.isolate.block_post_message     -> True      // *Suggested
-privacy.resistFingerprinting                      -> True      // *Suggested
+privacy.firstparty.isolate                        -> True      //
+privacy.firstparty.isolate.block_post_message     -> True      //
+privacy.resistFingerprinting                      -> True      //
 services.sync.prefs.sync.browser.formfill.enable  -> False     //
 services.sync.sendVersionInfo                     -> False     //
-services.sync.syncedTabs.showRemoteIcons          -> False     // Disable Favicon *Not Suggested
-security.mixed_content.block_display_content      -> True      // Disable Mixed Content *Suggested
-security.mixed_content.block_object_subrequest    -> True      // Disable Mixed Content *Suggested
-toolkit.telemetry.enabled                         -> False     // Disable firefox telemetry *Not Suggested
-toolkit.telemetry.unified                         -> False     // Disable firefox telemetry *Not Suggested
-webgl.disabled                                    -> True      // Disable WEBGL *Suggested
-webgl.enable-webgl2                               -> False     // Disable WEBGL *Suggested
+services.sync.syncedTabs.showRemoteIcons          -> False     // Disable Favicon
+security.mixed_content.block_display_content      -> True      // Disable Mixed Content
+security.mixed_content.block_object_subrequest    -> True      // Disable Mixed Content
+toolkit.telemetry.enabled                         -> False     // Disable firefox telemetry
+toolkit.telemetry.unified                         -> False     // Disable firefox telemetry
+webgl.disabled                                    -> True      // Disable WEBGL
+webgl.enable-webgl2                               -> False     // Disable WEBGL
 
 // CACHE \\
 
-browser.cache.disk.capacity                       -> 0         // *Not Suggested
-browser.cache.disk.smart_size.enabled             -> False     // *Not Suggested
-browser.cache.disk.enable                         -> False     // *Not Suggested
-browser.cache.memory.enable                       -> False     // *Not Suggested
-browser.cache.disk_cache_ssl                      -> False     // *Suggested
-browser.cache.offline.enable                      -> False     // *Suggested
-browser.cache.offline.storage.enable              -> False     // *Suggested
-dom.caches.enabled                                -> False     // *Not Suggested
-dom.quotaManager.loadQuotaFromCache               -> False     // *Not Suggested
-dom.script_loader.bytecode_cache.enabled          -> False     // *Not Suggested
-extensions.getAddons.cache.enabled                -> False     // Disable personalized recommendations *Suggested
+browser.cache.disk.capacity                       -> 0         //
+browser.cache.disk.smart_size.enabled             -> False     //
+browser.cache.disk.enable                         -> False     //
+browser.cache.memory.enable                       -> False     //
+browser.cache.disk_cache_ssl                      -> False     //
+browser.cache.offline.enable                      -> False     //
+browser.cache.offline.storage.enable              -> False     //
+dom.caches.enabled                                -> False     //
+dom.quotaManager.loadQuotaFromCache               -> False     //
+dom.script_loader.bytecode_cache.enabled          -> False     //
+extensions.getAddons.cache.enabled                -> False     // Disable personalized recommendations
 extensions.pocket.oAuthConsumerKey                -> Clear
-gfx.webrender.enable-item-cache                   -> False     // *Not Suggested
-layers.mlgpu.enable-buffer-cache                  -> False     // *Not Suggested
-layout.css.cached-scrollbar-styles.enabled        -> False     // *Not Suggested
-mousewheel.system_settings_cache.enabled          -> False     // *Not Suggested
+gfx.webrender.enable-item-cache                   -> False     //
+layers.mlgpu.enable-buffer-cache                  -> False     //
+layout.css.cached-scrollbar-styles.enabled        -> False     //
+mousewheel.system_settings_cache.enabled          -> False     //
 toolkit.telemetry.cachedClientID                  -> Clear     // Remove locally cached telemetry ID
 
 // Configure SSL - TLS \\
