@@ -1,7 +1,7 @@
 ★ ★  GOOD PLUGINS  ★ ★
-NOScript                                *Not Suggested*
+NOScript
 https://noscript.net/
-AD Block                                *Not Suggested*
+AD Block
 https://adblockplus.org/
 AD Block ♠
 https://mzl.la/3dGyHrN
@@ -22,12 +22,30 @@ CyberGhost VPN
 https://www.cyberghostvpn.com/en_US/
 TunnelBear VPN
 https://www.tunnelbear.com/
+
 ★ ★  SITES  ★ ★
+
 Browser Leaks:      https://browserleaks.com/
 DNS Leak test:      https://www.dnsleaktest.com/
 DNS Test:           https://www.cloudflare.com/ssl/encrypted-sni/
 CSS Exfil test:     https://www.mike-gualtieri.com/css-exfil-vulnerability-tester
-
+★ ★ ★ ★ ★ ★ ★ ★
+★ ★ Firefox Pages ★ ★
+about:about
+about:buildconfig
+about:cache
+about:debugging
+about:home
+about:license
+about:memory
+about:networking
+about:performance
+about:rights
+about:serviceworkers
+about:telemetry
+about:url-classifier
+about:webrtc
+★ ★ ★ ★ ★ ★ ★ ★
 Firefox Configuration Page: about:config
 
 I don't suggest you configure all the settings that you see down here on your browser.
