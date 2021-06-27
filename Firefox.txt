@@ -3,24 +3,24 @@ NOScript                                *Not Suggested*
 https://noscript.net/
 AD Block                                *Not Suggested*
 https://adblockplus.org/
-AD Block                                *Suggested*
+AD Block ♠
 https://mzl.la/3dGyHrN
-Canvas Blocker                          *Suggested*
+Canvas Blocker ♠
 https://mzl.la/3dGxZui
-CSS Exif                                *Suggested*
+CSS Exif ♠
 https://mzl.la/32GsCoR
-Font Fingerprint Protection             *Suggested*
+Font Fingerprint Protection ♠
 https://mzl.la/3eqlK4b
 ★ ★  GOOD PROGRAMS  ★ ★
-DNSCrypt-Proxy                          *Suggested*
+DNSCrypt-Proxy ♠
 https://bit.ly/3ayvrfV
-Proton VPN                              *Suggested*
+Proton VPN ♠
 https://protonvpn.com/
-vyprvpn                                 *Suggested*
+vyprvpn
 https://www.vyprvpn.com/
-CyberGhost VPN                          *Suggested*
+CyberGhost VPN
 https://www.cyberghostvpn.com/en_US/
-TunnelBear VPN                          *Suggested*
+TunnelBear VPN
 https://www.tunnelbear.com/
 ★ ★  SITES  ★ ★
 Browser Leaks:      https://browserleaks.com/
@@ -31,7 +31,7 @@ CSS Exfil test:     https://www.mike-gualtieri.com/css-exfil-vulnerability-teste
 Firefox Configuration Page: about:config
 
 I don't suggest you configure all the settings that you see down here on your browser.
-Only those you need or want, some settings may be incompatible when used together.
+Only those you need or want, some settings may cause trouble when used together.
 
 %% Latest Version Checked: 91.0a1
 
