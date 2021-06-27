@@ -1,4 +1,4 @@
-★★  GOOD PLUGINS  ★★
+★ ★  GOOD PLUGINS  ★ ★
 NOScript                                *Not Suggested*
 https://noscript.net/
 AD Block                                *Not Suggested*
@@ -11,7 +11,7 @@ CSS Exif                                *Suggested*
 https://mzl.la/32GsCoR
 Font Fingerprint Protection             *Suggested*
 https://mzl.la/3eqlK4b
-★★  GOOD PROGRAMS  ★★
+★ ★  GOOD PROGRAMS  ★ ★
 DNSCrypt-Proxy                          *Suggested*
 https://bit.ly/3ayvrfV
 Proton VPN                              *Suggested*
@@ -22,7 +22,7 @@ CyberGhost VPN                          *Suggested*
 https://www.cyberghostvpn.com/en_US/
 TunnelBear VPN                          *Suggested*
 https://www.tunnelbear.com/
-★★  SITES  ★★
+★ ★  SITES  ★ ★
 Browser Leaks:      https://browserleaks.com/
 DNS Leak test:      https://www.dnsleaktest.com/
 CSS Exfil test:     https://www.mike-gualtieri.com/css-exfil-vulnerability-tester
@@ -101,7 +101,6 @@ network.http.referer.XOriginTrimmingPolicy        -> 1         // Lower values m
 network.http.sendRefererHeader                    -> 1         // Lower values may break sites *Suggested
 network.http.referer.spoofSource                  -> True      //
 network.stricttransportsecurity.preloadlist       -> False     //
-plugin.scan.plid.all                              -> False     // Doesn't exist anymore
 places.history.enabled                            -> False     //
 privacy.firstparty.isolate                        -> True      // *Suggested
 privacy.firstparty.isolate.block_post_message     -> True      // *Suggested
@@ -139,11 +138,10 @@ toolkit.telemetry.cachedClientID                  -> Clear     // Remove locally
 // Configure SSL - TLS
 
 security.OCSP.require                             -> True
-security.tls.version.min                          -> 3         // Set the lower version of TLS to 1.2 - Defaulted on latest versions
+security.tls.version.min                          -> 3         // Set the lower version of TLS to 1.2
 security.tls.enable_0rtt_data                     -> False     // Don't use old data - saved data. If this is true it improves latency
 security.tls.enable_post_handshake_auth           -> True
 security.pki.sha1_enforcement_level               -> 1         // Disallow SHA-1
-security.ssl.disable_session_identifiers          -> True      // Doesn't Exist anymore
 security.ssl.require_safe_negotiation             -> True      // May break sites
 security.ssl.treat_unsafe_negotiation_as_broken   -> True      // May break sites
 security.ssl3.rsa_aes_128_sha                     -> False     // SHA
@@ -153,7 +151,7 @@ security.ssl3.dhe_rsa_aes_128_sha                 -> False     // SHA
 security.ssl3.dhe_rsa_aes_256_sha                 -> False     // SHA
 security.ssl3.ecdhe_rsa_aes_128_sha               -> False     // SHA
 security.ssl3.ecdhe_rsa_aes_256_sha               -> False     // SHA
-security.ssl3.rsa_aes_128_gcm_sha256              -> False     // No PFS - May break sites *Not Suggested
-security.ssl3.rsa_aes_256_gcm_sha384              -> False     // No PFS - May break sites *Not Suggested
+security.ssl3.rsa_aes_128_gcm_sha256              -> False     // No PFS
+security.ssl3.rsa_aes_256_gcm_sha384              -> False     // No PFS - May break sites
 security.ssl3.ecdhe_ecdsa_aes_256_sha             -> False     // SHA
 security.ssl3.ecdhe_ecdsa_aes_128_sha             -> False     // SHA
