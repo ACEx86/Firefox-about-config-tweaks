@@ -68,6 +68,7 @@ browser.urlbar.speculativeConnect.enabled         -> False     // Disable URL ba
 browser.send_pings                                -> False     // Disable website click ping. Ability to track from where you came
 browser.sessionstore.max_tabs_undo                -> 0         // Disable Menu -> History -> Recently Closed Tabs.
 browser.formfill.enable                           -> False     //
+dom.delay.block_external_protocol_in_iframes.enabled -> True
 dom.webaudio.enabled                              -> False     // Disable audio api
 dom.gamepad.enabled                               -> False     //
 dom.gamepad.extensions.enabled                    -> False     //
