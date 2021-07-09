@@ -125,6 +125,7 @@ network.http.referer.XOriginTrimmingPolicy        -> 1         // Lower values m
 network.http.sendRefererHeader                    -> 1         // Lower values may break sites
 network.http.referer.spoofSource                  -> True      //
 network.stricttransportsecurity.preloadlist       -> False     //
+pdfjs.disabled  -> False
 places.history.enabled                            -> False     //
 privacy.firstparty.isolate                        -> True      //
 privacy.firstparty.isolate.block_post_message     -> True      //
