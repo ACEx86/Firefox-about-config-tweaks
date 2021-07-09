@@ -60,25 +60,44 @@ Only those you need or want, some settings may cause trouble when used together.
 
 // GENERAL \\
 
-app.normandy.enable                               -> False     // 
-beacon.enabled                                    -> False     //
-browser.newtab.preload                            -> False     // Disable preloading newtab
-browser.sessionstore.privacy_level                -> 2         // Never store extra session data. 1 = Store for unencrypted sites only.
-browser.urlbar.speculativeConnect.enabled         -> False     // Disable URL bar connection and preload
-browser.send_pings                                -> False     // Disable website click ping. Ability to track from where you came
-browser.sessionstore.max_tabs_undo                -> 0         // Disable Menu -> History -> Recently Closed Tabs.
-browser.formfill.enable                           -> False     //
-dom.delay.block_external_protocol_in_iframes.enabled -> True
-dom.webaudio.enabled                              -> False     // Disable audio api
-dom.gamepad.enabled                               -> False     //
-dom.gamepad.extensions.enabled                    -> False     //
-device.sensors.enabled                            -> False     // Disable device sensors
-devtools.remote.wifi.scan                         -> False     //
-extensions.pocket.enabled                         -> False     // Disable the pocket
-extensions.blocklist.enabled                      -> False     //
-gfx.canvas.remote                                 -> False     //
-geo.enabled                                       -> False     // Disable geolocation.
-geo.provider.ms-windows-location                  -> False     // Disable Microsoft Provided geolocation.
+// False
+app.normandy.enable
+// False
+beacon.enabled
+// False  : Disable preloading newtab
+browser.newtab.preload
+// 2  : 2 = Never store extra session data. 1 = Store for unencrypted sites only.
+browser.sessionstore.privacy_level
+// False : Disable URL bar connection and preload
+browser.urlbar.speculativeConnect.enabled
+// False : Disable website click ping. Ability to track from where you came
+browser.send_pings
+// 0 : Disable Menu -> History -> Recently Closed Tabs.
+browser.sessionstore.max_tabs_undo
+// False
+browser.formfill.enable
+// True : 
+dom.delay.block_external_protocol_in_iframes.enabled
+// False : Disable audio api
+dom.webaudio.enabled
+// False
+dom.gamepad.enabled
+// False
+dom.gamepad.extensions.enabled
+// False :  Disable device sensors
+device.sensors.enabled
+// False
+devtools.remote.wifi.scan
+// False : Disable pocket
+extensions.pocket.enabled
+// False
+extensions.blocklist.enabled
+// False
+gfx.canvas.remote
+// False : Disable geolocation
+geo.enabled
+// False : Disable Microsoft Provided geolocation.
+geo.provider.ms-windows-location
 general.useragent.appName                                      //
 general.appname.override                                       //
 general.appversion.override                                    //
