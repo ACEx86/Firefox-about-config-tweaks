@@ -58,7 +58,7 @@ LATEST VERSION CHECKED >> 91.0a1
 I don't suggest you configure all the settings that you see down here on your browser.
 Only those you need or want, some settings may cause trouble when used together.
 
-// GENERAL \\
+/**/ GENERAL \**\
 
 // False
 app.normandy.enable
@@ -98,25 +98,42 @@ gfx.canvas.remote
 geo.enabled
 // False : Disable Microsoft Provided geolocation.
 geo.provider.ms-windows-location
-general.useragent.appName                                      //
-general.appname.override                                       //
-general.appversion.override                                    //
-general.platform.override                         -> x64
-general.useragent.override                        -> Mozilla/5.0 (Windows NT 10.0; rv:88.0) Gecko/20100101 Firefox/88.0
-general.useragent.vendor                                       //
-general.useragent.vendorSub                                    //
-** Javascript
-javascript.options.asmjs                          -> False     //
-javascript.options.asyncstack                     -> False     //
-javascript.options.baselinejit                    -> False     //
-javascript.options.ion                            -> False     //
-javascript.options.wasm                           -> False     //
-javascript.options.wasm_baselinejit               -> False     //
-javascript.options.parallel_parsing               -> False     //
-javascript.options.shared_memory                  -> False     //
-javascript.options.spectre.jit_to_cxx_calls       -> False     //
-pdfjs.enableScripting                             -> False     // Disable javascript on PDF
-** Javascript
+//
+general.useragent.appName
+//
+general.appname.override
+//
+general.appversion.override
+// x64
+general.platform.override
+// Mozilla/5.0 (Windows NT 10.0; rv:89.0) Gecko/20100101 Firefox/89.0
+general.useragent.override
+//
+general.useragent.vendor
+//
+general.useragent.vendorSub
+** (*) ** Javascript ** (*) **
+// False
+javascript.options.asmjs
+// False
+javascript.options.asyncstack
+// False
+javascript.options.baselinejit
+// False
+javascript.options.ion
+// False
+javascript.options.wasm
+// False
+javascript.options.wasm_baselinejit
+// False
+javascript.options.parallel_parsing
+// False
+javascript.options.shared_memory
+// False
+javascript.options.spectre.jit_to_cxx_calls
+// False : Disable javascript on PDF
+pdfjs.enableScripting
+** (*) ** Javascript ** (*) **
 media.peerconnection.enabled                      -> False     // Disable peerconnetion with servers
 media.peerconnection.turn.disable                 -> True      // Disable peerconnetion with servers
 media.peerconnection.use_document_iceservers      -> False     //
@@ -159,46 +176,83 @@ toolkit.telemetry.unified                         -> False     // Disable firefo
 webgl.disabled                                    -> True      // Disable WEBGL
 webgl.enable-webgl2                               -> False     // Disable WEBGL
 
-// CACHE \\
+/**/ CACHE \**\
 
 browser.cache.disk.capacity                       -> 0         //
-browser.cache.disk.smart_size.enabled             -> False     //
-browser.cache.disk.enable                         -> False     //
-browser.cache.memory.enable                       -> False     //
-browser.cache.disk_cache_ssl                      -> False     //
-browser.cache.offline.enable                      -> False     //
-browser.cache.offline.storage.enable              -> False     //
-dom.caches.enabled                                -> False     //
-dom.quotaManager.loadQuotaFromCache               -> False     //
-dom.script_loader.bytecode_cache.enabled          -> False     //
-extensions.getAddons.cache.enabled                -> False     // Disable personalized recommendations
-extensions.pocket.oAuthConsumerKey                -> Clear
-gfx.webrender.enable-item-cache                   -> False     //
-layers.mlgpu.enable-buffer-cache                  -> False     //
-layout.css.cached-scrollbar-styles.enabled        -> False     //
-mousewheel.system_settings_cache.enabled          -> False     //
-toolkit.telemetry.cachedClientID                  -> Clear     // Remove locally cached telemetry ID
+// False
+browser.cache.disk.smart_size.enabled
+// False
+browser.cache.disk.enable
+// False
+browser.cache.memory.enable
+// False
+browser.cache.disk_cache_ssl
+// False
+browser.cache.offline.enable
+// False
+browser.cache.offline.storage.enable
+// False
+dom.caches.enabled
+// False
+dom.quotaManager.loadQuotaFromCache
+// False
+dom.script_loader.bytecode_cache.enabled
+// False : Disable personalized recommendations
+extensions.getAddons.cache.enabled
+// Empty
+extensions.pocket.oAuthConsumerKey
+// False
+gfx.webrender.enable-item-cache
+// False
+layers.mlgpu.enable-buffer-cache
+// False
+layout.css.cached-scrollbar-styles.enabled
+// False
+mousewheel.system_settings_cache.enabled
+// Empty : Remove locally cached telemetry ID
+toolkit.telemetry.cachedClientID
 
-// SSL - TLS - DNS \\
+/**/ SSL - TLS - DNS \**\
 
-network.dns.echconfig.enabled                     -> True      // Hide hostname if available
-network.dns.use_https_rr_as_altsvc                -> True      // Hide hostname if available
-network.trr.mode                                  -> 3         // 3 only use DoH, 2 use DoH but falls back to native, 0 disable DoH
-security.OCSP.require                             -> True
-security.tls.version.min                          -> 3         // Set the lower version of TLS to 1.2
-security.tls.enable_0rtt_data                     -> False     // Don't use old data - saved data. If this is true it improves latency
-security.tls.enable_post_handshake_auth           -> True
-security.pki.sha1_enforcement_level               -> 1         // Disallow SHA-1
-security.ssl.require_safe_negotiation             -> True      // May break sites
-security.ssl.treat_unsafe_negotiation_as_broken   -> True      // May break sites
-security.ssl3.rsa_aes_128_sha                     -> False     // SHA
-security.ssl3.rsa_aes_256_sha                     -> False     // SHA
-security.ssl3.rsa_des_ede3_sha                    -> False     // SHA
-security.ssl3.dhe_rsa_aes_128_sha                 -> False     // SHA
-security.ssl3.dhe_rsa_aes_256_sha                 -> False     // SHA
-security.ssl3.ecdhe_rsa_aes_128_sha               -> False     // SHA
-security.ssl3.ecdhe_rsa_aes_256_sha               -> False     // SHA
-security.ssl3.rsa_aes_128_gcm_sha256              -> False     // No PFS
-security.ssl3.rsa_aes_256_gcm_sha384              -> False     // No PFS - May break sites
-security.ssl3.ecdhe_ecdsa_aes_256_sha             -> False     // SHA
-security.ssl3.ecdhe_ecdsa_aes_128_sha             -> False     // SHA
+\/ True : Hide hostname if available
+network.dns.echconfig.enabled
+\/ True : Hide hostname if available
+network.dns.use_https_rr_as_altsvc
+\/ 3 : 3 only use DoH, 2 use DoH but falls back to native, 0 disable DoH
+network.trr.mode
+\/ True
+security.OCSP.require
+\/ 3 : Set the lower version of TLS to 1.2
+security.tls.version.min
+\/ False :  Don't use old data - saved data. If this is true it improves latency
+security.tls.enable_0rtt_data
+\/ True
+security.tls.enable_post_handshake_auth
+\/ 1 : Dissalow SHA-1
+security.pki.sha1_enforcement_level
+\/ True
+security.ssl.require_safe_negotiation
+\/ True
+security.ssl.treat_unsafe_negotiation_as_broken
+\/ False : SHA
+security.ssl3.rsa_aes_128_sha
+\/ False : SHA
+security.ssl3.rsa_aes_256_sha
+\/ False : SHA
+security.ssl3.rsa_des_ede3_sha
+\/ False : SHA
+security.ssl3.dhe_rsa_aes_128_sha
+\/ False : SHA
+security.ssl3.dhe_rsa_aes_256_sha
+\/ False : SHA
+security.ssl3.ecdhe_rsa_aes_128_sha
+\/ False : SHA
+security.ssl3.ecdhe_rsa_aes_256_sha
+\/ False : NO PFS
+security.ssl3.rsa_aes_128_gcm_sha256
+\/ False : NO PFS ( May break sites)
+security.ssl3.rsa_aes_256_gcm_sha384
+\/ False : SHA
+security.ssl3.ecdhe_ecdsa_aes_256_sha
+\/ False : SHA
+security.ssl3.ecdhe_ecdsa_aes_128_sha
