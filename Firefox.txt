@@ -75,6 +75,10 @@ browser.send_pings
 // 0 : Disable Menu -> History -> Recently Closed Tabs.
 browser.sessionstore.max_tabs_undo
 // False
+browser.sessionstore.restore_on_demand
+// False
+browser.sessionstore.restore_tabs_lazily
+// False
 browser.formfill.enable
 // True : 
 dom.delay.block_external_protocol_in_iframes.enabled
@@ -134,125 +138,242 @@ javascript.options.spectre.jit_to_cxx_calls
 // False : Disable javascript on PDF
 pdfjs.enableScripting
 ** (*) ** Javascript ** (*) **
-media.peerconnection.enabled                      -> False     // Disable peerconnetion with servers
-media.peerconnection.turn.disable                 -> True      // Disable peerconnetion with servers
-media.peerconnection.use_document_iceservers      -> False     //
-media.peerconnection.video.enabled                -> False     // Disable peerconnetion with servers
-media.peerconnection.identity.enabled             -> False     //
-media.peerconnection.simulcast                    -> False     // Disable peerconnetion with servers
-media.navigator.enabled                           -> False     // Disable device sharing
-media.eme.enabled                                 -> False     //
-media.gmp-widevinecdm.enabled                     -> False     //
-media.webspeech.synth.enabled                     -> False     // Disable SpeechSynthesis API
-media.gmp-widevinecdm.enabled                     -> False     //
-media.getusermedia.screensharing.enabled          -> False     // Disable Screen Sharing feature
-messaging-system.rsexperimentloader.enabled       -> False     // Disable new feature experiments
-network.captive-portal-service.enabled            -> False     // Disable connections to mozilla
-network.connectivity-service.enabled              -> False     // Disable connections to mozilla
-network.dns.disableIPv6                           -> True      // Disable IPV6 on dns
-network.prefetch-next                             -> False     // Disable network preload next page
-network.predictor.enabled                         -> False     // Disable network predict next page
-network.dns.disablePrefetch                       -> True      // Disable DNS preload next page
-network.IDN_show_punycode                         -> True      // Show punny code
-network.http.speculative-parallel-limit           -> 0         // Disable predictive connections
-network.http.referer.XOriginPolicy                -> 1         // Lower values may break sites
-network.http.referer.trimmingPolicy               -> 1         // Lower values may break sites
-network.http.referer.XOriginTrimmingPolicy        -> 1         // Lower values may break sites
-network.http.sendRefererHeader                    -> 1         // Lower values may break sites
-network.http.referer.spoofSource                  -> True      //
-network.stricttransportsecurity.preloadlist       -> False     //
-pdfjs.disabled  -> False
-places.history.enabled                            -> False     //
-privacy.firstparty.isolate                        -> True      //
-privacy.firstparty.isolate.block_post_message     -> True      //
-privacy.resistFingerprinting                      -> True      //
-services.sync.prefs.sync.browser.formfill.enable  -> False     //
-services.sync.sendVersionInfo                     -> False     //
-services.sync.syncedTabs.showRemoteIcons          -> False     // Disable Favicon
-security.mixed_content.block_display_content      -> True      // Disable Mixed Content
-security.mixed_content.block_object_subrequest    -> True      // Disable Mixed Content
-toolkit.telemetry.enabled                         -> False     // Disable firefox telemetry
-toolkit.telemetry.unified                         -> False     // Disable firefox telemetry
-webgl.disabled                                    -> True      // Disable WEBGL
-webgl.enable-webgl2                               -> False     // Disable WEBGL
+// False : Disable peerconnetion with servers
+media.peerconnection.enabled
+
+// True : Disable peerconnetion with servers
+media.peerconnection.turn.disable
+
+// False
+media.peerconnection.use_document_iceservers
+
+// False : Disable peerconnetion with servers
+media.peerconnection.video.enabled
+
+// False
+media.peerconnection.identity.enabled
+
+// False : Disable peerconnetion with servers
+media.peerconnection.simulcast
+
+// False : Disable device sharing
+media.navigator.enabled
+
+// False
+media.eme.enabled
+
+// False
+media.gmp-widevinecdm.enabled
+
+// False : Disable SpeechSynthesis API
+media.webspeech.synth.enabled
+
+// False
+media.gmp-widevinecdm.enabled
+
+// False : Disable Screen Sharing feature
+media.getusermedia.screensharing.enabled
+
+// False : Disable new feature experiments
+messaging-system.rsexperimentloader.enabled
+
+// False : Disable connections to mozilla
+network.captive-portal-service.enabled
+
+// False : Disable connections to mozilla
+network.connectivity-service.enabled
+
+// True : Disable IPv6
+network.dns.disableIPv6
+
+// False : Disable network preload next page
+network.prefetch-next
+
+// False : Disable network preload next page
+network.predictor.enabled
+
+// True : Disable DNS preload next page
+network.dns.disablePrefetch
+
+// True : Show punny code
+network.IDN_show_punycode
+
+// 0 : Disable predictive connections
+network.http.speculative-parallel-limit
+// 1
+network.http.referer.XOriginPolicy
+
+// 1
+network.http.referer.trimmingPolicy
+
+// 1
+network.http.referer.XOriginTrimmingPolicy
+
+// 1
+network.http.sendRefererHeader
+
+// True
+network.http.referer.spoofSource
+
+// False
+network.stricttransportsecurity.preloadlist
+
+// False
+pdfjs.disabled
+
+// False
+places.history.enabled
+
+// True
+privacy.firstparty.isolate
+
+// True
+privacy.firstparty.isolate.block_post_message
+
+// True
+privacy.resistFingerprinting
+
+// False
+services.sync.prefs.sync.browser.formfill.enable
+
+// False
+services.sync.sendVersionInfo
+
+// False
+services.sync.syncedTabs.showRemoteIcons
+
+// True : Disable Mixed Content
+security.mixed_content.block_display_content
+
+// True : Disable Mixed Content
+security.mixed_content.block_object_subrequest
+
+// False : Disable firefox telemetry
+toolkit.telemetry.enabled
+
+// False : Disable firefox telemetry
+toolkit.telemetry.unified
+
+// True : Disable WEBGL
+webgl.disabled
+
+// False : Disable WEBGL
+webgl.enable-webgl2
 
 /**/ CACHE \**\
 
-browser.cache.disk.capacity                       -> 0         //
+// 0
+browser.cache.disk.capacity
+
 // False
 browser.cache.disk.smart_size.enabled
+
 // False
 browser.cache.disk.enable
+
 // False
 browser.cache.memory.enable
+
 // False
 browser.cache.disk_cache_ssl
+
 // False
 browser.cache.offline.enable
+
 // False
 browser.cache.offline.storage.enable
+
 // False
 dom.caches.enabled
+
 // False
 dom.quotaManager.loadQuotaFromCache
+
 // False
 dom.script_loader.bytecode_cache.enabled
+
 // False : Disable personalized recommendations
 extensions.getAddons.cache.enabled
+
 // Empty
 extensions.pocket.oAuthConsumerKey
+
 // False
 gfx.webrender.enable-item-cache
+
 // False
 layers.mlgpu.enable-buffer-cache
+
 // False
 layout.css.cached-scrollbar-styles.enabled
+
 // False
 mousewheel.system_settings_cache.enabled
+
 // Empty : Remove locally cached telemetry ID
 toolkit.telemetry.cachedClientID
 
 /**/ SSL - TLS - DNS \**\
 
-\/ True : Hide hostname if available
+// True : Hide hostname if available
 network.dns.echconfig.enabled
-\/ True : Hide hostname if available
+
+// True : Hide hostname if available
 network.dns.use_https_rr_as_altsvc
-\/ 3 : 3 only use DoH, 2 use DoH but falls back to native, 0 disable DoH
+
+// 3 : 3 only use DoH, 2 use DoH but falls back to native, 0 disable DoH
 network.trr.mode
-\/ True
+
+// True
 security.OCSP.require
-\/ 3 : Set the lower version of TLS to 1.2
+
+// 3 : Set the lower version of TLS to 1.2
 security.tls.version.min
-\/ False :  Don't use old data - saved data. If this is true it improves latency
+
+// False :  Don't use old data - saved data. If this is true it improves latency
 security.tls.enable_0rtt_data
-\/ True
+
+// True
 security.tls.enable_post_handshake_auth
-\/ 1 : Dissalow SHA-1
+
+// 1 : Dissalow SHA-1
 security.pki.sha1_enforcement_level
-\/ True
+
+// True
 security.ssl.require_safe_negotiation
-\/ True
+
+// True
 security.ssl.treat_unsafe_negotiation_as_broken
-\/ False : SHA
+
+// False : SHA
 security.ssl3.rsa_aes_128_sha
-\/ False : SHA
+
+// False : SHA
 security.ssl3.rsa_aes_256_sha
-\/ False : SHA
+
+// False : SHA
 security.ssl3.rsa_des_ede3_sha
-\/ False : SHA
+
+// False : SHA
 security.ssl3.dhe_rsa_aes_128_sha
-\/ False : SHA
+
+// False : SHA
 security.ssl3.dhe_rsa_aes_256_sha
-\/ False : SHA
+
+// False : SHA
 security.ssl3.ecdhe_rsa_aes_128_sha
-\/ False : SHA
+
+// False : SHA
 security.ssl3.ecdhe_rsa_aes_256_sha
-\/ False : NO PFS
+
+// False : NO PFS
 security.ssl3.rsa_aes_128_gcm_sha256
-\/ False : NO PFS ( May break sites)
+
+// False : NO PFS ( May break sites)
 security.ssl3.rsa_aes_256_gcm_sha384
-\/ False : SHA
+
+// False : SHA
 security.ssl3.ecdhe_ecdsa_aes_256_sha
-\/ False : SHA
+
+// False : SHA
 security.ssl3.ecdhe_ecdsa_aes_128_sha
