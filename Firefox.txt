@@ -58,7 +58,7 @@ LATEST VERSION CHECKED >> 94.0a1
 I don't suggest you configure all the settings that you see down here on your browser.
 Only those you need or want, some settings may cause trouble when used together.
 
-/**/ GENERAL \**\
+★ ★ ★ / ** / GENERAL \ ** \ ★ ★ ★
 
 // False
 app.normandy.enable
@@ -116,28 +116,40 @@ general.useragent.override
 general.useragent.vendor
 //
 general.useragent.vendorSub
-** (*) ** Javascript ** (*) **
+
+★ ★ ★ ** (*) ** Javascript ** (*) ** ★ ★ ★
 // False
 javascript.options.asmjs
+
 // False
 javascript.options.asyncstack
+
 // False
 javascript.options.baselinejit
+
 // False
 javascript.options.ion
+
 // False
 javascript.options.wasm
+
 // False
 javascript.options.wasm_baselinejit
+
 // False
 javascript.options.parallel_parsing
+
 // False
 javascript.options.shared_memory
+
 // False
 javascript.options.spectre.jit_to_cxx_calls
+
 // False : Disable javascript on PDF
 pdfjs.enableScripting
+
 ** (*) ** Javascript ** (*) **
+
 // False : Disable peerconnetion with servers
 media.peerconnection.enabled
 
@@ -200,6 +212,7 @@ network.IDN_show_punycode
 
 // 0 : Disable predictive connections
 network.http.speculative-parallel-limit
+
 // 1
 network.http.referer.XOriginPolicy
 
@@ -260,7 +273,7 @@ webgl.disabled
 // False : Disable WEBGL
 webgl.enable-webgl2
 
-/**/ CACHE \**\
+★ ★ ★ /**/ CACHE \**\ ★ ★ ★
 
 // 0
 browser.cache.disk.capacity
