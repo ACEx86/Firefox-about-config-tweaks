@@ -313,7 +313,7 @@ mousewheel.system_settings_cache.enabled
 // Empty : Remove locally cached telemetry ID
 toolkit.telemetry.cachedClientID
 
-/**/ SSL - TLS - DNS \**\
+★ ★ ★ / ** / SSL - TLS - DNS \ ** \ ★ ★ ★
 
 // True : Hide hostname if available
 network.dns.echconfig.enabled
