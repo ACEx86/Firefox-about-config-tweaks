@@ -105,6 +105,12 @@ dom.gamepad.enabled
 // False
 dom.gamepad.extensions.enabled
 
+// False
+dom.vr.enabled
+
+// False
+dom.vibrator.enabled
+
 // False :  Disable device sensors
 device.sensors.enabled
 
