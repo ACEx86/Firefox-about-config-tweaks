@@ -129,56 +129,28 @@ gfx.canvas.remote
 // False : Disable geolocation
 geo.enabled
 
-
 // False : Disable Microsoft Provided geolocation.
 geo.provider.ms-windows-location
+
 //
 general.useragent.appName
+
 //
 general.appname.override
+
 //
 general.appversion.override
 // x64
 general.platform.override
+
 // Mozilla/5.0 (Windows NT 10.0; rv:89.0) Gecko/20100101 Firefox/89.0
 general.useragent.override
+
 //
 general.useragent.vendor
+
 //
 general.useragent.vendorSub
-
-★ ★ ★ ** (*) ** Javascript ** (*) ** ★ ★ ★
-// False
-javascript.options.asmjs
-
-// False
-javascript.options.asyncstack
-
-// False
-javascript.options.baselinejit
-
-// False
-javascript.options.ion
-
-// False
-javascript.options.wasm
-
-// False
-javascript.options.wasm_baselinejit
-
-// False
-javascript.options.parallel_parsing
-
-// False
-javascript.options.shared_memory
-
-// False
-javascript.options.spectre.jit_to_cxx_calls
-
-// False : Disable javascript on PDF
-pdfjs.enableScripting
-
-** (*) ** Javascript ** (*) **
 
 // False : Disable peerconnetion with servers
 media.peerconnection.enabled
@@ -224,6 +196,9 @@ network.captive-portal-service.enabled
 
 // False : Disable connections to mozilla
 network.connectivity-service.enabled
+
+// False
+network.dns.offline-localhost
 
 // True : Disable IPv6
 network.dns.disableIPv6
@@ -302,6 +277,37 @@ webgl.disabled
 
 // False : Disable WEBGL
 webgl.enable-webgl2
+
+★ ★ ★ ** (*) ** Javascript ** (*) ** ★ ★ ★
+// False
+javascript.options.asmjs
+
+// False
+javascript.options.asyncstack
+
+// False
+javascript.options.baselinejit
+
+// False
+javascript.options.ion
+
+// False
+javascript.options.wasm
+
+// False
+javascript.options.wasm_baselinejit
+
+// False
+javascript.options.parallel_parsing
+
+// False
+javascript.options.shared_memory
+
+// False
+javascript.options.spectre.jit_to_cxx_calls
+
+// False : Disable javascript on PDF
+pdfjs.enableScripting
 
 ★ ★ ★ /**/ CACHE \**\ ★ ★ ★
 
@@ -412,7 +418,7 @@ security.ssl3.ecdhe_rsa_aes_256_sha
 // False : NO PFS
 security.ssl3.rsa_aes_128_gcm_sha256
 
-// False : NO PFS ( May break sites)
+// False : NO PFS ( May break sites, keep it enabled )
 security.ssl3.rsa_aes_256_gcm_sha384
 
 // False : SHA
