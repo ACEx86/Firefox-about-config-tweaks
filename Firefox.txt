@@ -66,6 +66,9 @@ app.normandy.enable
 // False
 beacon.enabled
 
+// True
+browser.meta_refresh_when_inactive.disabled
+
 // False  : Disable preloading newtab
 browser.newtab.preload
 
@@ -236,7 +239,7 @@ network.http.referer.spoofSource
 // False
 network.stricttransportsecurity.preloadlist
 
-// False
+// True
 pdfjs.disabled
 
 // False
