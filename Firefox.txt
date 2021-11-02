@@ -47,6 +47,7 @@ about:memory
 about:networking
 about:performance
 about:plugins
+about:processes
 about:profiles
 about:rights
 about:serviceworkers
