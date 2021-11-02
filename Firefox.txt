@@ -49,6 +49,7 @@ about:performance
 about:rights
 about:serviceworkers
 about:studies
+about:support
 about:telemetry
 about:unloads
 about:url-classifier
