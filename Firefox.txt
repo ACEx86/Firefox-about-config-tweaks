@@ -136,6 +136,9 @@ extensions.pocket.enabled
 // False  :
 extensions.blocklist.enabled
 
+// True   : Enable Site Issolation
+fission.autostart
+
 // False  :
 gfx.canvas.remote
 
