@@ -48,6 +48,7 @@ about:networking
 about:performance
 about:rights
 about:serviceworkers
+about:studies
 about:telemetry
 about:unloads
 about:url-classifier
