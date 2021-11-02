@@ -46,11 +46,14 @@ about:license
 about:memory
 about:networking
 about:performance
+about:plugins
+about:profiles
 about:rights
 about:serviceworkers
 about:studies
 about:support
 about:telemetry
+about:third-party
 about:unloads
 about:url-classifier
 about:webrtc
