@@ -48,6 +48,7 @@ about:performance
 about:rights
 about:serviceworkers
 about:telemetry
+about:unloads
 about:url-classifier
 about:webrtc
 
@@ -60,79 +61,82 @@ Only those you need or want, some settings may cause trouble when used together.
 
 ★ ★ ★ / ** / GENERAL \ ** \ ★ ★ ★
 
-// False
+// False  :
 app.normandy.enable
 
-// False
+// False  :
 beacon.enabled
 
-// True
+// True   :
 browser.meta_refresh_when_inactive.disabled
+
+// False  : Unload Tabs on low memory condition
+browser.tabs.unloadOnLowMemory
 
 // False  : Disable preloading newtab
 browser.newtab.preload
 
-// 2  : 2 = Never store extra session data. 1 = Store for unencrypted sites only.
+// 2      : 2 = Never store extra session data. 1 = Store for unencrypted sites only.
 browser.sessionstore.privacy_level
 
-// False : Disable URL bar connection and preload
+// False  : Disable URL bar connection and preload
 browser.urlbar.speculativeConnect.enabled
 
-// False : Disable website click ping. Ability to track from where you came
+// False  : Disable website click ping. Ability to track from where you came
 browser.send_pings
 
-// 0 : Disable Menu -> History -> Recently Closed Tabs.
+// 0      : Disable Menu -> History -> Recently Closed Tabs.
 browser.sessionstore.max_tabs_undo
 
-// False
+// False  :
 browser.sessionstore.restore_on_demand
 
-// False
+// False  :
 browser.sessionstore.restore_tabs_lazily
 
-// False
+// False  :
 browser.formfill.enable
 
-// True :
+// True   :
 dom.block_reload_from_resize_event_handler
 
-// True : 
+// True   : 
 dom.delay.block_external_protocol_in_iframes.enabled
 
-// False : Disable audio api
+// False  : Disable audio api
 dom.webaudio.enabled
 
-// False
+// False  :
 dom.gamepad.enabled
 
-// False
+// False  :
 dom.gamepad.extensions.enabled
 
-// False
+// False  :
 dom.vr.enabled
 
-// False
+// False  :
 dom.vibrator.enabled
 
-// False :  Disable device sensors
+// False  : Disable device sensors
 device.sensors.enabled
 
-// False
+// False  :
 devtools.remote.wifi.scan
 
-// False : Disable pocket
+// False  : Disable pocket
 extensions.pocket.enabled
 
-// False
+// False  :
 extensions.blocklist.enabled
 
-// False
+// False  :
 gfx.canvas.remote
 
-// False : Disable geolocation
+// False  : Disable geolocation
 geo.enabled
 
-// False : Disable Microsoft Provided geolocation.
+// False  : Disable Microsoft Provided geolocation.
 geo.provider.ms-windows-location
 
 //
@@ -155,70 +159,70 @@ general.useragent.vendor
 //
 general.useragent.vendorSub
 
-// False : Disable peerconnetion with servers
+// False  : Disable peerconnetion with servers
 media.peerconnection.enabled
 
-// True : Disable peerconnetion with servers
+// True   : Disable peerconnetion with servers
 media.peerconnection.turn.disable
 
-// False
+// False  :
 media.peerconnection.use_document_iceservers
 
-// False : Disable peerconnetion with servers
+// False  : Disable peerconnetion with servers
 media.peerconnection.video.enabled
 
-// False
+// False  :
 media.peerconnection.identity.enabled
 
-// False : Disable peerconnetion with servers
+// False  : Disable peerconnetion with servers
 media.peerconnection.simulcast
 
-// False : Disable device sharing
+// False  : Disable device sharing
 media.navigator.enabled
 
-// False
+// False  :
 media.eme.enabled
 
-// False
+// False  :
 media.gmp-widevinecdm.enabled
 
-// False : Disable SpeechSynthesis API
+// False  : Disable SpeechSynthesis API
 media.webspeech.synth.enabled
 
-// False
+// False  :
 media.gmp-widevinecdm.enabled
 
-// False : Disable Screen Sharing feature
+// False  : Disable Screen Sharing feature
 media.getusermedia.screensharing.enabled
 
-// False : Disable new feature experiments
+// False  : Disable new feature experiments
 messaging-system.rsexperimentloader.enabled
 
-// False : Disable connections to mozilla
+// False  : Disable connections to mozilla
 network.captive-portal-service.enabled
 
-// False : Disable connections to mozilla
+// False  : Disable connections to mozilla
 network.connectivity-service.enabled
 
-// False
+// False  :
 network.dns.offline-localhost
 
-// True : Disable IPv6
+// True   : Disable IPv6
 network.dns.disableIPv6
 
-// False : Disable network preload next page
+// False  : Disable network preload next page
 network.prefetch-next
 
-// False : Disable network preload next page
+// False  : Disable network preload next page
 network.predictor.enabled
 
-// True : Disable DNS preload next page
+// True   : Disable DNS preload next page
 network.dns.disablePrefetch
 
-// True : Show punny code
+// True   : Show punny code
 network.IDN_show_punycode
 
-// 0 : Disable predictive connections
+// 0      : Disable predictive connections
 network.http.speculative-parallel-limit
 
 // 1
