@@ -319,150 +319,147 @@ toolkit.telemetry.shutdownPingSender.enabled
 
 ★ ★ ★ ** (*) ** Javascript ** (*) ** ★ ★ ★
 
-// False
+// False  :
 javascript.options.asmjs
 
-// False
+// False  :
 javascript.options.asyncstack
 
-// False
+// False  :
 javascript.options.baselinejit
 
-// False
+// False  :
 javascript.options.ion
 
-// False
+// False  :
 javascript.options.wasm
 
-// False
+// False  :
 javascript.options.wasm_baselinejit
 
-// False
+// False  :
 javascript.options.parallel_parsing
 
-// False
+// False  :
 javascript.options.shared_memory
 
-// False
+// False  :
 javascript.options.spectre.jit_to_cxx_calls
 
-// False : Disable javascript on PDF
+// False  : Disable javascript scripting on PDF
 pdfjs.enableScripting
 
 ★ ★ ★ /**/ CACHE \**\ ★ ★ ★
 
-// 0
+// 0      :
 browser.cache.disk.capacity
 
-// False
+// False  :
 browser.cache.disk.smart_size.enabled
 
-// False
+// False  :
 browser.cache.disk.enable
 
-// False
+// False  :
 browser.cache.memory.enable
 
-// False
+// False  : Disable disk caching of ssl
 browser.cache.disk_cache_ssl
 
-// False
+// False  : Disable offline disk cache
 browser.cache.offline.enable
 
-// False
-browser.cache.offline.storage.enable
-
-// False
+// False  :
 dom.caches.enabled
 
-// False
+// False  :
 dom.quotaManager.loadQuotaFromCache
 
-// False
+// False  :
 dom.script_loader.bytecode_cache.enabled
 
-// False : Disable personalized recommendations
+// False  : Disable personalized recommendations of addons
 extensions.getAddons.cache.enabled
 
-// Empty
+// Empty  :
 extensions.pocket.oAuthConsumerKey
 
-// False
+// False  :
 gfx.webrender.enable-item-cache
 
-// False
+// False  :
 layers.mlgpu.enable-buffer-cache
 
-// False
+// False  :
 layout.css.cached-scrollbar-styles.enabled
 
-// False
+// False  :
 mousewheel.system_settings_cache.enabled
 
-// Empty : Remove locally cached telemetry ID
+// Empty  : Remove locally cached telemetry ID
 toolkit.telemetry.cachedClientID
 
 ★ ★ ★ / ** / SSL - TLS - DNS \ ** \ ★ ★ ★
 
-// True : Hide hostname if available
+// True   : Hide-Encrypt hostname inside packet layers if available
 network.dns.echconfig.enabled
 
-// True : Hide hostname if available
+// True   : Hide-Encrypt hostname inside packet layers if available
 network.dns.use_https_rr_as_altsvc
 
-// 3 : 3 only use DoH, 2 use DoH but falls back to native, 0 disable DoH
+// 3      : 3 only use DoH, 2 use DoH but falls back to native, 0 disable DoH
 network.trr.mode
 
-// True
+// True   : Require OCSP validation
 security.OCSP.require
 
-// 3 : Set the lower version of TLS to 1.2
+// 3      : Set the lower version of TLS allowed. 1: 1.0  2: 1.1  3: 1.2  4: 1.3
 security.tls.version.min
 
-// False : Don't use old / saved data. If this is true it improves latency
+// False  : Don't use old / saved data. If this is true it improves latency
 security.tls.enable_0rtt_data
 
-// True
+// True   :
 security.tls.enable_post_handshake_auth
 
-// 1 : Dissalow SHA-1
+// 1      : Dissalow SHA-1
 security.pki.sha1_enforcement_level
 
-// True
+// True   : Requre safe negotiation for SSL - TLS. It may break some sites.
 security.ssl.require_safe_negotiation
 
-// True
+// True   : Don't connect if safe negotiation is not possible.
 security.ssl.treat_unsafe_negotiation_as_broken
 
-// False : SHA 1
+// False  : SHA 1
 security.ssl3.rsa_aes_128_sha
 
-// False : SHA 1
+// False  : SHA 1
 security.ssl3.rsa_aes_256_sha
 
-// False : SHA 1
+// False  : SHA 1
 security.ssl3.rsa_des_ede3_sha
 
-// False : SHA 1
+// False  : SHA 1
 security.ssl3.dhe_rsa_aes_128_sha
 
-// False : SHA 1
+// False  : SHA 1
 security.ssl3.dhe_rsa_aes_256_sha
 
-// False : SHA 1
+// False  : SHA 1
 security.ssl3.ecdhe_rsa_aes_128_sha
 
-// False : SHA 1
+// False  : SHA 1
 security.ssl3.ecdhe_rsa_aes_256_sha
 
-// False : NO PFS
+// False  : NO PFS
 security.ssl3.rsa_aes_128_gcm_sha256
 
-// False : NO PFS ( May break sites, keep it enabled )
+// False  : NO PFS ( May break sites, keep it enabled )
 security.ssl3.rsa_aes_256_gcm_sha384
 
-// False : SHA 1
+// False  : SHA 1
 security.ssl3.ecdhe_ecdsa_aes_256_sha
 
-// False : SHA 1
+// False  : SHA 1
 security.ssl3.ecdhe_ecdsa_aes_128_sha
