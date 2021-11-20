@@ -260,6 +260,12 @@ pdfjs.disabled
 places.history.enabled
 
 // True
+privacy.clearOnShutdown.offlineApps
+
+// True
+privacy.clearOnShutdown.openWindows
+
+// True
 privacy.firstparty.isolate
 
 // True
