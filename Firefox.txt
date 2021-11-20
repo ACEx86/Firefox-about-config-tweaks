@@ -266,6 +266,9 @@ privacy.clearOnShutdown.offlineApps
 privacy.clearOnShutdown.openWindows
 
 // True
+privacy.clearOnShutdown.siteSettings
+
+// True
 privacy.firstparty.isolate
 
 // True
