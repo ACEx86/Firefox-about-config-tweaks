@@ -228,94 +228,94 @@ network.IDN_show_punycode
 // 0      : Disable predictive connections
 network.http.speculative-parallel-limit
 
-// 1
+// 1      : 
 network.http.referer.XOriginPolicy
 
-// 1
+// 1      : 
 network.http.referer.trimmingPolicy
 
-// 1
+// 1      : 
 network.http.referer.XOriginTrimmingPolicy
 
-// 1
+// 1      : 
 network.http.sendRefererHeader
 
-// True
+// True   : 
 network.http.referer.spoofSource
 
-// False
+// False  : 
 network.stricttransportsecurity.preloadlist
 
-// True
+// True   :
 pdfjs.disabled
 
-// False
+// False  :
 places.history.enabled
 
-// True
+// True   :
 privacy.clearOnShutdown.offlineApps
 
-// True
+// True   :
 privacy.clearOnShutdown.openWindows
 
-// True
+// True   :
 privacy.clearOnShutdown.siteSettings
 
-// True
+// True   :
 privacy.firstparty.isolate
 
-// True
+// True   :
 privacy.firstparty.isolate.block_post_message
 
-// True
+// True   :
 privacy.resistFingerprinting
 
-// False
+// False  :
 services.sync.prefs.sync.browser.formfill.enable
 
-// False
+// False  :
 services.sync.sendVersionInfo
 
-// False
+// False  :
 services.sync.syncedTabs.showRemoteIcons
 
-// True : Disable Mixed Content
+// True   : Disable Mixed Content
 security.mixed_content.block_display_content
 
-// True : Disable Mixed Content
+// True   : Disable Mixed Content
 security.mixed_content.block_object_subrequest
 
-// True : Disable WEBGL
+// True   : Disable WEBGL
 webgl.disabled
 
-// False : Disable WEBGL
+// False  : Disable WEBGL
 webgl.enable-webgl2
 
 ★ ★ ★ ** (*) ** Telemetry ** (*) ** ★ ★ ★
 
-// False
-toolkit.telemetry.shutdownPingSender.enabled
-
-// False
-toolkit.telemetry.pioneer-new-studies-available
-
-// False
-toolkit.telemetry.newProfilePing.enabled
-
-// False
-toolkit.telemetry.firstShutdownPing.enabled
-
-// False
+// False  :
 browser.newtabpage.activity-stream.feeds.telemetry
 
-// False
+// False  :
 browser.newtabpage.activity-stream.telemetry
 
-// False : Disable firefox telemetry
+// False  : Disable firefox telemetry
 toolkit.telemetry.enabled
 
-// False : Disable firefox telemetry
+// False  : Disable firefox telemetry
 toolkit.telemetry.unified
+
+// False  : Disable first shutdown ping sender
+toolkit.telemetry.firstShutdownPing.enabled
+
+// False  : Disable New Profile creation ping sender
+toolkit.telemetry.newProfilePing.enabled
+
+// False  : Disable new studies check ping sender
+toolkit.telemetry.pioneer-new-studies-available
+
+// False  : Disable shutdown of browser ping sender
+toolkit.telemetry.shutdownPingSender.enabled
 
 ★ ★ ★ ** (*) ** Javascript ** (*) ** ★ ★ ★
 
@@ -419,7 +419,7 @@ security.OCSP.require
 // 3 : Set the lower version of TLS to 1.2
 security.tls.version.min
 
-// False :  Don't use old data - saved data. If this is true it improves latency
+// False : Don't use old / saved data. If this is true it improves latency
 security.tls.enable_0rtt_data
 
 // True
@@ -434,25 +434,25 @@ security.ssl.require_safe_negotiation
 // True
 security.ssl.treat_unsafe_negotiation_as_broken
 
-// False : SHA
+// False : SHA 1
 security.ssl3.rsa_aes_128_sha
 
-// False : SHA
+// False : SHA 1
 security.ssl3.rsa_aes_256_sha
 
-// False : SHA
+// False : SHA 1
 security.ssl3.rsa_des_ede3_sha
 
-// False : SHA
+// False : SHA 1
 security.ssl3.dhe_rsa_aes_128_sha
 
-// False : SHA
+// False : SHA 1
 security.ssl3.dhe_rsa_aes_256_sha
 
-// False : SHA
+// False : SHA 1
 security.ssl3.ecdhe_rsa_aes_128_sha
 
-// False : SHA
+// False : SHA 1
 security.ssl3.ecdhe_rsa_aes_256_sha
 
 // False : NO PFS
@@ -461,8 +461,8 @@ security.ssl3.rsa_aes_128_gcm_sha256
 // False : NO PFS ( May break sites, keep it enabled )
 security.ssl3.rsa_aes_256_gcm_sha384
 
-// False : SHA
+// False : SHA 1
 security.ssl3.ecdhe_ecdsa_aes_256_sha
 
-// False : SHA
+// False : SHA 1
 security.ssl3.ecdhe_ecdsa_aes_128_sha
