@@ -2,9 +2,9 @@
 
 NOScript
 https://noscript.net/
-AD Block
+AD Block Plus
 https://adblockplus.org/
-AD Block
+UBlock Origin
 https://mzl.la/3dGyHrN
 Canvas Blocker
 https://mzl.la/3dGxZui
@@ -12,6 +12,8 @@ CSS Exif
 https://mzl.la/32GsCoR
 Font Fingerprint Protection
 https://mzl.la/3eqlK4b
+NoEval
+https://mzl.la/3djyhXn
 
 ★ ★  GOOD PROGRAMS  ★ ★
 
