@@ -44,6 +44,7 @@ about:performance
 about:plugins
 about:processes
 about:profiles
+about:profiling
 about:rights
 about:serviceworkers
 about:studies
