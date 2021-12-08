@@ -57,7 +57,7 @@ about:webrtc
 
 Firefox Configuration Page >> about:config
 
-LATEST VERSION CHECKED >> 96.0a1
+LATEST VERSION CHECKED >> 97.0a1
 
 I don't suggest you configure all the settings that you see down here on your browser.
 Only those you need or want, some settings may cause trouble when used together.
