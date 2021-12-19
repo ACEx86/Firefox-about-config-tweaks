@@ -67,6 +67,9 @@ Only those you need or want, some settings may cause trouble when used together.
 // False  :
 app.normandy.enable
 
+// False  : Disable the running of experiments
+app.normandy.optoutstudies.enabled
+
 // False  :
 beacon.enabled
 
