@@ -64,7 +64,7 @@ Only those you need or want, some settings may cause trouble when used together.
 
 ★ ★ ★ / ** / GENERAL \ ** \ ★ ★ ★
 
-// False  :
+// False  : Disable studies, feature rollouts and emergency hotfixes related to Normandy
 app.normandy.enable
 
 // False  : Disable the running of experiments
