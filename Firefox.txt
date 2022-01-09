@@ -35,6 +35,7 @@ about:addons
 about:buildconfig
 about:cache
 about:config
+about:crashes
 about:debugging
 about:home
 about:license
