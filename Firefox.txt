@@ -92,6 +92,9 @@ browser.urlbar.speculativeConnect.enabled
 // False  : Disable website click ping. Ability to track from where you came
 browser.send_pings
 
+// True   : Only ping the URI if it has the same host as the document containing the link.
+browser.send_pings.require_same_host
+
 // 0      : Disable Menu -> History -> Recently Closed Tabs.
 browser.sessionstore.max_tabs_undo
 
