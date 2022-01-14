@@ -298,6 +298,9 @@ webgl.disabled
 // False  : Disable WEBGL
 webgl.enable-webgl2
 
+// False  : Disable WebPush Notifications
+dom.webnotifications.enabled
+
 ★ ★ ★ ** (*) ** Telemetry ** (*) ** ★ ★ ★
 
 // False  :
