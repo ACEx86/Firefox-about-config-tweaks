@@ -155,15 +155,16 @@ geo.provider.ms-windows-location
 //
 general.useragent.appName
 
-//
+// Netscape
 general.appname.override
 
-//
+// 5.0 (Windows)
 general.appversion.override
-// x64
+
+// Win32
 general.platform.override
 
-// Mozilla/5.0 (Windows NT 10.0; rv:89.0) Gecko/20100101 Firefox/89.0
+// Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0
 general.useragent.override
 
 //
