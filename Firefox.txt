@@ -1,21 +1,21 @@
 ★ ★  GOOD PLUGINS  ★ ★
 
-NOScript
-https://noscript.net/
-AD Block Plus
-https://adblockplus.org/
 UBlock Origin
 https://mzl.la/3dGyHrN
+NOScript
+https://noscript.net/
 Canvas Blocker
 https://mzl.la/3dGxZui
-CSS Exif
-https://mzl.la/32GsCoR
 Font Fingerprint Protection
 https://mzl.la/3eqlK4b
+CSS Exif
+https://mzl.la/32GsCoR
 NoEval
 https://mzl.la/3djyhXn
+ProtonPass
+https://mzl.la/3uG4kwQ
 
-★ ★  GOOD PROGRAMS  ★ ★
+★ ★  VPN PROGRAMS  ★ ★
 
 DNSCrypt-Proxy ♠
 https://bit.ly/3ayvrfV
@@ -43,6 +43,7 @@ about:memory
 about:networking
 about:performance
 about:plugins
+about:policies
 about:processes
 about:profiles
 about:profiling
@@ -58,7 +59,7 @@ about:webrtc
 
 Firefox Configuration Page >> about:config
 
-LATEST VERSION CHECKED >> 97.0a1
+LATEST VERSION CHECKED >> 123.0
 
 I don't suggest you configure all the settings that you see down here on your browser.
 Only those you need or want, some settings may cause trouble when used together.
