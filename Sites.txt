@@ -1,11 +1,16 @@
 Here you will find sites to test-check your browser settings.
 
-★ ★  SITES  ★ ★
+★ ★ ★ ★ SITES ★ ★ ★ ★
 
 Browser Leaks:      https://browserleaks.com/
 Browser Leaks:      https://webbrowsertools.com/
+Browser Test:       https://tenta.com/test/
+Browser Test:       https://whoer.net/
 DNS Leak test:      https://www.dnsleaktest.com/
 DNS Test:           https://www.cloudflare.com/ssl/encrypted-sni/
-SSL Client Test:    https://clienttest.ssllabs.com:8443/ssltest/viewMyClient.html
+DNS Test:           https://1.1.1.1/help
+IP Info:            https://www.ipinfodb.com/
+IP Leak:            https://ipleak.net/
+SSL Client Test:    https://www.ssllabs.com/ssltest/viewMyClient.html
 CSS Exfil test:     https://www.mike-gualtieri.com/css-exfil-vulnerability-tester
 Device Info:        https://deviceinfo.me
