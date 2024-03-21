@@ -39,6 +39,7 @@ about:crashes
 about:debugging
 about:home
 about:license
+about:logging
 about:memory
 about:networking
 about:performance
@@ -59,7 +60,7 @@ about:webrtc
 
 Firefox Configuration Page >> about:config
 
-LATEST VERSION CHECKED >> 123.0
+LATEST VERSION CHECKED >> 124.0
 
 I don't suggest you configure all the settings that you see down here on your browser.
 Only those you need or want, some settings may cause trouble when used together.
