@@ -39,6 +39,7 @@ about:crashes
 about:debugging
 about:home
 about:license
+about:logging
 about:memory
 about:networking
 about:performance
