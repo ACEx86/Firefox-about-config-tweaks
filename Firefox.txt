@@ -39,7 +39,6 @@ about:crashes
 about:debugging
 about:home
 about:license
-about:logging
 about:memory
 about:networking
 about:performance
@@ -70,26 +69,17 @@ Only those you need or want, some settings may cause trouble when used together.
 // False  : Disable studies, feature rollouts and emergency hotfixes related to Normandy
 app.normandy.enable
 
-// False  : Disable the running of experiments
+^// False  : Disable the running of experiments
 app.normandy.optoutstudies.enabled
 
 // False  :
 beacon.enabled
 
-// True   :
+// True   : Web content refresh
 browser.meta_refresh_when_inactive.disabled
-
-// False  : Unload Tabs on low memory condition
-browser.tabs.unloadOnLowMemory
 
 // False  : Disable preloading newtab
 browser.newtab.preload
-
-// 2      : 2 = Never store extra session data. 1 = Store for unencrypted sites only.
-browser.sessionstore.privacy_level
-
-// False  : Disable URL bar connection and preload
-browser.urlbar.speculativeConnect.enabled
 
 // False  : Disable website click ping. Ability to track from where you came
 browser.send_pings
@@ -100,23 +90,35 @@ browser.send_pings.require_same_host
 // 0      : Disable Menu -> History -> Recently Closed Tabs.
 browser.sessionstore.max_tabs_undo
 
+// 2      : 2 = Never store extra session data. 1 = Store for unencrypted sites only.
+browser.sessionstore.privacy_level
+
 // False  :
 browser.sessionstore.restore_on_demand
 
 // False  :
 browser.sessionstore.restore_tabs_lazily
 
+// False  : Unload Tabs on low memory condition
+browser.tabs.unloadOnLowMemory
+
+// False  : Disable URL bar connection and preload
+browser.urlbar.speculativeConnect.enabled
+
 // False  :
 browser.formfill.enable
+
+// False  : Disable device sensors
+device.sensors.enabled
+
+// False  :
+devtools.remote.wifi.scan
 
 // True   :
 dom.block_reload_from_resize_event_handler
 
 // True   : 
 dom.delay.block_external_protocol_in_iframes.enabled
-
-// False  : Disable audio api
-dom.webaudio.enabled
 
 // False  :
 dom.gamepad.enabled
@@ -130,11 +132,11 @@ dom.vr.enabled
 // False  :
 dom.vibrator.enabled
 
-// False  : Disable device sensors
-device.sensors.enabled
+// False  : Disable audio api
+dom.webaudio.enabled
 
-// False  :
-devtools.remote.wifi.scan
+// False  : Disable WebPush Notifications
+dom.webnotifications.enabled
 
 // False  : Disable pocket
 extensions.pocket.enabled
@@ -166,7 +168,7 @@ general.appversion.override
 // Win32
 general.platform.override
 
-// Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0
+// Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
 general.useragent.override
 
 //
@@ -259,7 +261,7 @@ network.http.referer.spoofSource
 // False  : 
 network.stricttransportsecurity.preloadlist
 
-// True   :
+// True   : PDF functionality
 pdfjs.disabled
 
 // False  :
@@ -304,9 +306,6 @@ webgl.disabled
 // False  : Disable WEBGL
 webgl.enable-webgl2
 
-// False  : Disable WebPush Notifications
-dom.webnotifications.enabled
-
 ★ ★ ★ ** (*) ** Telemetry ** (*) ** ★ ★ ★
 
 // False  :
@@ -333,7 +332,7 @@ toolkit.telemetry.pioneer-new-studies-available
 // False  : Disable shutdown of browser ping sender
 toolkit.telemetry.shutdownPingSender.enabled
 
-★ ★ ★ ** (*) ** Javascript ** (*) ** ★ ★ ★
+★ ★ ★ ★ ★ ** Javascript ** ★ ★ ★ ★ ★
 
 // False  :
 javascript.options.asmjs
@@ -365,7 +364,7 @@ javascript.options.spectre.jit_to_cxx_calls
 // False  : Disable javascript scripting on PDF
 pdfjs.enableScripting
 
-★ ★ ★ /**/ CACHE \**\ ★ ★ ★
+★ ★ ★ ★ ★ ** CACHE ** ★ ★ ★ ★ ★
 
 // 0      :
 browser.cache.disk.capacity
@@ -373,7 +372,7 @@ browser.cache.disk.capacity
 // False  :
 browser.cache.disk.smart_size.enabled
 
-// False  :
+// False  : Disable cache of disk
 browser.cache.disk.enable
 
 // False  :
@@ -382,7 +381,7 @@ browser.cache.memory.enable
 // False  : Disable disk caching of ssl
 browser.cache.disk_cache_ssl
 
-// False  : Disable offline disk cache
+^// False  : Disable offline disk cache
 browser.cache.offline.enable
 
 // False  :
@@ -400,7 +399,7 @@ extensions.getAddons.cache.enabled
 // Empty  :
 extensions.pocket.oAuthConsumerKey
 
-// False  :
+(*** DONT // False  :
 gfx.webrender.enable-item-cache
 
 // False  :
@@ -410,12 +409,12 @@ layers.mlgpu.enable-buffer-cache
 layout.css.cached-scrollbar-styles.enabled
 
 // False  :
-mousewheel.system_settings_cache.enabled
+mousewheel.system_settings_cache.enabled DONT ***)
 
 // Empty  : Remove locally cached telemetry ID
 toolkit.telemetry.cachedClientID
 
-★ ★ ★ / ** / SSL - TLS - DNS \ ** \ ★ ★ ★
+★ ★ ★ ★ ★ ** DNS - TLS - SSL ** ★ ★ ★ ★ ★
 
 // True   : Hide-Encrypt hostname inside packet layers if available
 network.dns.echconfig.enabled
