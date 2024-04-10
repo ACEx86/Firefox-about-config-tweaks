@@ -34,6 +34,7 @@ about:about
 about:addons
 about:buildconfig
 about:cache
+about:compat
 about:config
 about:crashes
 about:debugging
