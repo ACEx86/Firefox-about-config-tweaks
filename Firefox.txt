@@ -34,34 +34,54 @@ about:about
 about:addons
 about:buildconfig
 about:cache
+about:certificate
+about:checkerboard
 about:compat
 about:config
 about:crashes
+about:credits
 about:debugging
+about:deleteprofile
+about:downloads
+about:editprofile
 about:home
 about:license
 about:logging
+about:logins
+about:loginsimportreport
+about:logo
 about:memory
+about:mozilla
 about:networking
+about:newprofile
+about:newtab
 about:performance
 about:plugins
 about:policies
+about:preferences
+about:privatebrowsing
 about:processes
 about:profiles
 about:profiling
+about:protections
 about:rights
+about:robots
 about:serviceworkers
 about:studies
 about:support
+about:sync-log
 about:telemetry
 about:third-party
 about:unloads
 about:url-classifier
+about:webauthn
 about:webrtc
+about:welcome
+
 
 Firefox Configuration Page >> about:config
 
-LATEST VERSION CHECKED >> 124.0
+LATEST VERSION CHECKED >> 139.x
 
 I don't suggest you configure all the settings that you see down here on your browser.
 Only those you need or want, some settings may cause trouble when used together.
@@ -441,6 +461,12 @@ security.tls.enable_post_handshake_auth
 
 // 1      : Dissalow SHA-1
 security.pki.sha1_enforcement_level
+
+// True   : Session identifiers are disabled — slightly reduces performance but can improve privacy by preventing cross-site tracking via TLS state.
+security.ssl.disable_session_identifiers
+
+// False  : Disable deprecated cipher.
+security.ssl3.deprecated.rsa_des_ede3_sha
 
 // True   : Requre safe negotiation for SSL - TLS. It may break some sites.
 security.ssl.require_safe_negotiation
