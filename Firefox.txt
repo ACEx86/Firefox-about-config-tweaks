@@ -238,6 +238,9 @@ media.getusermedia.screensharing.enabled
 // False  : Disable new feature experiments
 messaging-system.rsexperimentloader.enabled
 
+// False :
+network.early-hints.preconnect.enabled
+
 // False  : Disable connections to mozilla
 network.captive-portal-service.enabled
 
@@ -249,6 +252,9 @@ network.dns.offline-localhost
 
 // True   : Disable IPv6
 network.dns.disableIPv6
+
+// False :
+network.preconnect
 
 // False  : Disable network preload next page
 network.prefetch-next
