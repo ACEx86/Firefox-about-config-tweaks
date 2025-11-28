@@ -81,7 +81,7 @@ about:welcome
 
 Firefox Configuration Page >> about:config
 
-LATEST VERSION CHECKED >> 139.x
+LATEST VERSION CHECKED >> 145.0.2
 
 I don't suggest you configure all the settings that you see down here on your browser.
 Only those you need or want, some settings may cause trouble when used together.
@@ -94,10 +94,10 @@ app.normandy.enable
 ^// False  : Disable the running of experiments
 app.normandy.optoutstudies.enabled
 
-// False  :
+// False  : A low-overhead API for sending analytics or telemetry data in the background
 beacon.enabled
 
-// True   : Web content refresh
+// True   : Web content refresh. Inactive tabs won’t auto-redirect or auto-reload via meta refresh.
 browser.meta_refresh_when_inactive.disabled
 
 // False  : Disable preloading newtab
@@ -124,7 +124,7 @@ browser.sessionstore.restore_tabs_lazily
 // False  : Unload Tabs on low memory condition
 browser.tabs.unloadOnLowMemory
 
-// False  : Disable URL bar connection and preload
+// False  : Disable URL bar connection and preload. No speculative connections, the browser waits until you explicitly load the page.
 browser.urlbar.speculativeConnect.enabled
 
 // False  :
@@ -471,14 +471,14 @@ security.pki.sha1_enforcement_level
 // True   : Session identifiers are disabled — slightly reduces performance but can improve privacy by preventing cross-site tracking via TLS state.
 security.ssl.disable_session_identifiers
 
-// False  : Disable deprecated cipher.
-security.ssl3.deprecated.rsa_des_ede3_sha
-
 // True   : Requre safe negotiation for SSL - TLS. It may break some sites.
 security.ssl.require_safe_negotiation
 
 // True   : Don't connect if safe negotiation is not possible.
 security.ssl.treat_unsafe_negotiation_as_broken
+
+// False  : Triple DES with RSA and SHA-1
+security.ssl3.deprecated.rsa_des_ede3_sha
 
 // False  : SHA 1
 security.ssl3.rsa_aes_128_sha
@@ -501,10 +501,10 @@ security.ssl3.ecdhe_rsa_aes_128_sha
 // False  : SHA 1
 security.ssl3.ecdhe_rsa_aes_256_sha
 
-// False  : NO PFS
+// False  : NO Perfect Forward Secrecy
 security.ssl3.rsa_aes_128_gcm_sha256
 
-// False  : NO PFS ( May break sites, keep it enabled )
+// False  : NO Perfect Forward Secrecy ( May break sites, keep it enabled )
 security.ssl3.rsa_aes_256_gcm_sha384
 
 // False  : SHA 1
