@@ -148,6 +148,9 @@ dom.gamepad.enabled
 // False  :
 dom.gamepad.extensions.enabled
 
+// False  : Disable HTTP background request.
+dom.security.https_only_mode_send_http_background_request
+
 // False  :
 dom.vr.enabled
 
