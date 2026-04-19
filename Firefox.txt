@@ -136,6 +136,9 @@ device.sensors.enabled
 // False  :
 devtools.remote.wifi.scan
 
+// True :
+docshell.shistory.bfcache.require_no_opener
+
 // True   :
 dom.block_reload_from_resize_event_handler
 
