@@ -146,6 +146,9 @@ dom.block_reload_from_resize_event_handler
 dom.delay.block_external_protocol_in_iframes.enabled
 
 // False  :
+dom.fs.enabled
+
+// False  :
 dom.gamepad.enabled
 
 // False  :
@@ -487,19 +490,19 @@ security.ssl.treat_unsafe_negotiation_as_broken
 security.ssl3.deprecated.rsa_des_ede3_sha
 
 // False  : SHA 1
-security.ssl3.rsa_aes_128_sha
-
-// False  : SHA 1
-security.ssl3.rsa_aes_256_sha
-
-// False  : SHA 1
-security.ssl3.rsa_des_ede3_sha
-
-// False  : SHA 1
 security.ssl3.dhe_rsa_aes_128_sha
 
 // False  : SHA 1
 security.ssl3.dhe_rsa_aes_256_sha
+
+// False  : AES 128
+security.ssl3.ecdhe_ecdsa_aes_128_gcm_sha256
+
+// False  : SHA 1
+security.ssl3.ecdhe_ecdsa_aes_256_sha
+
+// False  : SHA 1
+security.ssl3.ecdhe_ecdsa_aes_128_sha
 
 // False  : SHA 1
 security.ssl3.ecdhe_rsa_aes_128_sha
@@ -514,7 +517,10 @@ security.ssl3.rsa_aes_128_gcm_sha256
 security.ssl3.rsa_aes_256_gcm_sha384
 
 // False  : SHA 1
-security.ssl3.ecdhe_ecdsa_aes_256_sha
+security.ssl3.rsa_aes_128_sha
 
 // False  : SHA 1
-security.ssl3.ecdhe_ecdsa_aes_128_sha
+security.ssl3.rsa_aes_256_sha
+
+// False  : SHA 1
+security.ssl3.rsa_des_ede3_sha
