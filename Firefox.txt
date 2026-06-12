@@ -86,7 +86,7 @@ LATEST VERSION CHECKED >> 145.0.2
 I don't suggest you configure all the settings that you see down here on your browser.
 Only those you need or want, some settings may cause trouble when used together.
 
-★ ★ ★ / ** / GENERAL \ ** \ ★ ★ ★
+ / ** /  ★ ★ ★ GENERAL  ★ ★ ★  \ ** \
 
 // False  : Disable studies, feature rollouts and emergency hotfixes related to Normandy
 app.normandy.enable
@@ -343,7 +343,7 @@ webgl.disabled
 // False  : Disable WEBGL
 webgl.enable-webgl2
 
-★ ★ ★ ** (*) ** Telemetry ** (*) ** ★ ★ ★
+ / ** /  ★ ★ ★ Telemetry  ★ ★ ★  \ ** \
 
 // False  :
 browser.newtabpage.activity-stream.feeds.telemetry
@@ -369,7 +369,7 @@ toolkit.telemetry.pioneer-new-studies-available
 // False  : Disable shutdown of browser ping sender
 toolkit.telemetry.shutdownPingSender.enabled
 
-★ ★ ★ ★ ★ ** Javascript ** ★ ★ ★ ★ ★
+ / ** /  ★ ★★★★ ★  Javascript  ★ ★★★★ ★  \ ** \
 
 // False  :
 javascript.options.asmjs
@@ -404,7 +404,7 @@ javascript.options.spectre.jit_to_cxx_calls
 // False  : Disable javascript scripting on PDF
 pdfjs.enableScripting
 
-★ ★ ★ ★ ★ ** CACHE ** ★ ★ ★ ★ ★
+ / ** /  ★ ★★★★ ★  CACHE  ★ ★★★★ ★  \ ** \
 
 // 0      :
 browser.cache.disk.capacity
@@ -454,7 +454,7 @@ mousewheel.system_settings_cache.enabled DONT ***)
 // Empty  : Remove locally cached telemetry ID
 toolkit.telemetry.cachedClientID
 
-★ ★ ★ ★ ★ ** DNS - TLS - SSL ** ★ ★ ★ ★ ★
+ / ** /  ★ ★★★★ ★  DNS - TLS - SSL  ★ ★★★★ ★  \ ** \
 
 // True   : Hide-Encrypt hostname inside packet layers if available
 network.dns.echconfig.enabled
