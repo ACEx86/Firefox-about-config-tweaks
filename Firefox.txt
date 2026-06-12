@@ -396,6 +396,9 @@ javascript.options.parallel_parsing
 javascript.options.shared_memory
 
 // False  :
+javascript.options.spectre.disable_for_isolated_content
+
+// False  :
 javascript.options.spectre.jit_to_cxx_calls
 
 // False  : Disable javascript scripting on PDF
